@@ -62,7 +62,7 @@ class RecipeDetailsVC: UIViewController {
            
            self.RecipeDetails.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "RecipeDetails", comment: "")
            self.AddonL.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "AddonL", comment: "")
-           self.addtheBasketL.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "addtheBasketL", comment: ""), for: .normal)
+         //  self.addtheBasketL.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "addtheBasketL", comment: ""), for: .normal)
            self.addCommentsL.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "Add Comments", comment: "")
        }
     }
