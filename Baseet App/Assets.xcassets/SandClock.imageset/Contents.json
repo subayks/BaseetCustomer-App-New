@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "on_the_way_icon_view@1x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

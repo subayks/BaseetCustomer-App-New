@@ -1,0 +1,298 @@
+/* 
+  Localizable.strings
+  Baseet App
+
+  Created by apple on 01/11/22.
+  
+*/
+
+//login////
+"Login with Mobile Number" = "تسجيل الدخول باستخدام رقم الهاتف المحمول";
+"Enter your mobile number we will send you OTP to verify" = "أدخل رقم هاتفك المحمول وسنرسل لك OTP للتحقق";
+"Continue" = "استمر";
+"EnterMobile Number" = "أدخل رقم الجوال";
+" Basket" = " سلة";
+"Verify Mobile Number" = "تحقق من رقم الهاتف المحمول";
+"Enter OTP number send to your number" = "تم إرسال OTP إلى رقم هاتفك المحمول ، يرجى إدخاله أدناه";
+"submit" = "ُقدِّم";
+"Please search with Restaurent/Food name" = "الرجاء البحث باسم المطعم / الطعام";
+"currentNoFev" = "لم تتم إضافة أي مفضلات حاليًا";
+"searchBarText" = "ابحث عن المطعم هنا";
+"searchBarItemText" = "Search Item Here";
+"Add more items" = "أضف المزيد من العناصر";
+"item Total" =     "مجموع الاشياء";
+"Tax & Charges" =  "الضرائب والرسوم";
+"Grand Total"=     "المبلغ الإجمالي";
+//location//
+"Select Location" = "اختر موقع";
+"SELECT DELIVERY LOCATION" = "حدد موقع التسليم";
+"CONFIRM LOCATION" = "تأكيد الموقع";
+//Home//
+"Snacks" = "وجبات خفيفة";
+"View all" = "مشاهدة الكل";
+"Near By Restaurant" = "بالقرب من المطعم";
+"searchText" = "ابحث عن المطاعم والعناصر والمزيد";
+//Tabs//
+"Profile" = "الملف الشخصي";
+"Cart" = "عربة التسوق";
+"Search" = "يبحث" ;
+"Offers" = "عروض";
+//"Home" = "مسكن";
+"Home" = "الرئيسية";
+//slide//
+"My Orders" = "طلباتي";
+"My Places" = "مكاني";
+"My Favorites" = "مفضلتي";
+"My Wallet" = "محفظتى";
+"Invite Friend" = "ادعو أصدقاء";
+"Notifications" = "إشعارات";
+"Settings" = "إعدادات";
+"Contact Us" = "اتصل بنا";
+"Join Us" = "انضم إلينا";
+"LogOut" = "تسجيل خروج";
+"Login" = "تسجيل الدخول";
+//profile//
+"Name" = "اسم";
+"Email" = "الإيميل";
+"Mobile Number" = "رقم الهاتف المحمول";
+"Address" = "تبوك";
+//search Restaurents//
+ "Search For Restaurents" = "ابحث عن المطاعم";
+"Search for Restaurents,Item's & Food" = "ابحث عن المطاعم والمواد والطعام";
+"Most Searched and Bought" = "الأكثر بحثًا وشراءً";
+"Near by Popular Restaurents" = "بالقرب من المطاعم الشعبية";
+"Biryani" = "برياني";
+"Mandi" = "مندي";
+"Pizza" = "بيتزا";
+"Burger" = "برجر";
+"Sawarma" = "شاورما";
+"Rumali" = "رومالي";
+"pasta" = "معكرونة";
+"Rumali" = "رومالي";
+
+//offers//
+"Offers for You"  = "عروض لك";
+"No Coupons Available" = "لا كوبونات متاحة";
+"Offers" = "عروض";
+
+//cart//
+"Cart" = "السلة";
+"No item avaliable" = "لا يوجد عنصر متوفر";
+
+
+//logoutView//
+
+"logoutLbl" = "
+نحن نخدع ؛ ر إبلاغ أي رسائل إذا كنت
+تسجيل الخروج من هذا التطبيق
+";
+"LOGOUT" ="خروج";
+"CANCEL" = "إلغاء";
+
+//dish//
+
+"Search for Restaurants, Items & more" = "ابحث عن مطاعم وعناصر والمزيد";
+"addBtn" = "يضيف";
+
+
+//my Orders//
+
+"My Orders" =      "طلباتي";
+"Current Orders" = "الطلبات الحالية";
+"Past Order" =     "طلب سابق";
+
+"Order Details" = "تفاصيل الطلب";
+"Modify" = "تعديل";
+
+//Join Us//
+
+"designLblLl" = "من تصميم لمتجر / مطاعم";
+"joinUsL" = "انضم إلينا";
+"businessLblL" = "الاسم التجاري";
+"businessTypeL" = "نوع العمل";
+"contactPeesonL" = "اسم شخص الاتصال";
+"MobileL" = "رقم الموبايل";
+"emailL" = "عنوان الايميل";
+"desciptionL" = "وصف";
+
+"Sign In" = "تسجيل الدخول";
+"Submit" = "يُقدِّم";
+
+
+//RecipeDetails//
+
+"RecipeDetails" = "وصفةالتفاصيل";
+"AddonL"        = "اضافه";
+"addtheBasketL" = "أضف إلى السلة";
+"Add Comments" = "أضف التعليقات";
+"Add your Comment Here" = "أضف تعليقك هنا";
+
+
+//paywith//
+
+"paywith" = "ادفع من خلال";
+
+
+//pay now//
+
+"DelivertLocL" = "موقع التسليم";
+"payWithL" = "ادفع من خلال";
+"paynowBtn" = "ادفع الآن";
+"selectPaymentBtnn" = "حدد الدفع";
+
+
+"Please select payment type" = "الرجاء تحديد نوع الدفع";
+"Alert" = "انذار";
+
+"takeAway" = "يبعد";
+"ordernow" = "اطلب الان";
+
+
+"totalsaving" = "إجمالي المدخرات";
+"listofselect" = "قائمة العناصر الخاصة بك المختارة";
+"addspe" = "أضف ملاحظات خاصة";
+
+"basket" = "سلة";
+
+
+"myplaces" = "أماكني";
+"myplacesDoha" = "أماكني حول الدوحة";
+
+"myFev" = "مفضلتي";
+"orderNow" = "الان";
+
+
+
+"addMonyWL" = "أضف أموالاً إلى محفظة Baseet";
+"proceedtAdd" = "أكمل لإضافة 200 ريال قطري";
+"anyDebitorCreditL" = "أضف أي بطاقة خصم أو بطاقة ائتمان لتسريع عمليات الدفع";
+"addnewCrdL" = "+ إضافة بطاقة جديدة";
+"TermsConditions" = "البنود و الظروف";
+"myWalletL" = "محفظتى";
+
+
+//invite frnds//
+
+"refaralCodeL" = "كود الإحالة الخاص بك" ;
+"inviteFrndsL" = "ادعو أصدقاء";
+"pastReferalL" = "تجاوز كود الإحالة الخاص بك هنا";
+
+
+
+"notificayionL" = "إشعارات";
+
+"contactUsL" = "اتصل بنا";
+
+"settingsL" = "إعدادات";
+
+
+
+"Edit" = "تعديل الملف الشخصي";
+"Security" = "حماية";
+"Notifications" = "إشعارات";
+"Change Location" = "تغيير الموقع";
+
+
+
+"Name" = "اسم";
+"Email" =" الإلكترون";
+"Location" ="موقع";
+"Phone Number" ="رقم الهاتف";
+"Password" ="كلمة المرور";
+
+
+"esitPrfilrL" = " الملف الشخصي";
+"uploadL" = "حمل الصورة";
+
+
+"Save" = "يحفظ";
+
+
+"showall" = "إظهار كل محتوى الإعلام";
+"hideall" = "إخفاء كل محتوى الإخطار";
+"dontshow" = "لا تظهر الإخطارات على الإطلاق";
+
+
+"Order Processed" = "تم انهاء الطلب";
+"Order On the Way" = "اطلب على الطريق";
+"Order Delivered" = "أجل تسليم";
+
+"walletBalance" = "رصيد المحفظة";
+"Delete" = "حذف";
+"Are you sure you want to delete the Address" = "هل أنت متأكد أنك تريد حذف العنوان";
+"Add" = "يضيف";
+"Yes" = "نعم";
+"No" = "رقم";
+"Done" = "منجز";
+"Customize" = "يعدل";
+"Apply" = "ابل";
+"Remove" = "إزالة";
+"Card" = "بطاقة";
+"Cash" = "نقدي";
+"Placed Sucessfully" = "تم تقديم الطلب بنجاح";
+"Order" = "ترتيب";
+"Delivered Sucessfully" = "سلمت بنجاح";
+"Total Charge" = "القيمة الاجمالية";
+"Delivery Charge" = "رسوم التوصيل";
+"Coupon" = "قسيمة";
+"Order Details" = "تفاصيل الطلب";
+"Addons" = "الإضافات";
+"ApplyCouponCode" = "ابل كوبون كود";
+"Contact-Us" = "اتصل بنا";
+"OrderID" = "رقم الطلب";
+"Add More Item" = "أضف المزيد من العناصر";
+"Add Your Comment Here" = "أضف تعليقك هنا";
+"Change Location" = "تغيير الموقع";
+"Name" = "الاسم";
+"Zone" = "منطقة";
+"Address Short Name" = "عنوان الاسم المختصر";
+"Street" = "الشارع";
+"Building No" = "رقم المبنى";
+"Floor (Optional)" = "الطابق(اختيارى)";
+"Phone No (Optional)" = "رقم الهاتف (اختياري)";
+"Work" = "عمل";
+"Delivery Person Details" = "التفاصيل الشخصية للتسليم";
+"Add new Place" = "اضافة عنوان جديد";
+"Others" = "اخرى";
+"Select Delivery Location" = "اضافة مكان التوصيل";
+"Delivery Charge" = "رسوم التوصيل";
+"Discount Amount" = "خصم المبلغ";
+"Add Note" = "اضافة ملاحظة ";
+"Enter OTP" = "أدخل OTP";
+"Tell About Service" = "أخبر عن الخدمة";
+"Feedback" = "استجابة";
+"Give Some Feedback In Words" = "قدم بعض الملاحظات بالكلمات";
+"Rate Your Overall Experience" = "قيم تجربتك بشكل عام";
+"How is the Delivery" = "كيف يتم التسليم";
+"Rate Your Order" = "قيم طلبك";
+"Leave Feedback About Your Meal And Delivery" = "اترك ملاحظات حول وجبتك والتسليم";
+"Your Feedback Improves The Delivery Experience" = "تعمل ملاحظاتك على تحسين تجربة التسليم";
+"RecipeDetails" = "تفاصيل الوصفة";
+"Order Now" = "اطلب الان";
+"Delivered At" = "تسليمها في";
+"On" = "على";
+"Coupon Not Found" = "";
+"Okay" = "تمام";
+"Baseet" = "بسيط";
+"PLEASE ENTER ZONE" = "الرجاء إدخال المنطقة";
+"PLEASE ENTER BUILDING NO" = " الرجاء إدخال رقم المبنى";
+"PLEASE ENTER STREET NO" = "يرجى إدخال رقم الشارع";
+"Add To Cart Successfully" = "تمت إضافة إلى عربة التسوق بنجاح";
+"Service Is Not Available In This Area" = "الخدمة غير متوفرة في هذه المنطقة";
+"This is different restaurant. You have to clear the cart first." = "هذا مطعم مختلف. يجب عليك مسح العربة أولاً.";
+"Please Input Mobile Number" = "الرجاء إدخال رقم الهاتف المحمول";
+"Please fill up the mandatory fields" = "يرجى ملء الحقول الإلزامية";
+"Please Select A Payment Method" = "الرجاء تحديد طريقة الدفع";
+"Location Is Not Updated" = "لم يتم تحديث الموقع.";
+"Add To Basket" = "Add To Basket";
+"Cancel Order" = "الغاء الطلب";
+"Time Left" = "";
+"Please Login" = "الرجاء تسجيل الدخول";
+"Schedule Order" = " جدولة الطلب";
+"Enter Date" = "أدخل التاريخ";
+"Enter Time" = "أدخل الوقت.";
+"Scheduled Sucessfully" = "جدولة الطلب بنجاح";
+"Delete Account" = "حذف الحساب";
+"We're sorry to see you" = "نحن آسفون لرؤيتك";
+"Nevermind, keep you account" = "لا داعي للقلق ، حافظ على حسابك";
+

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bike@1x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

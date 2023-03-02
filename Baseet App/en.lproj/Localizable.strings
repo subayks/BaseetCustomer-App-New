@@ -1,0 +1,358 @@
+/*
+  Localizable.strings
+  Baseet App
+
+  Created by apple on 01/11/22.
+  
+*/
+//login////
+
+"Login with Mobile Number" = "Login with Mobile Number";
+"Enter your mobile number we will send you OTP to verify" = "Enter your mobile number we will send you OTP to verify";
+"Continue" = "Continue";
+"Continue" = "Continue";
+
+" Basket" = " Basket";
+
+"EnterMobile Number" = "EnterMobile Number";
+
+"searchBarText" = "Search Restaurent Here";
+"searchBarItemText" = "Search Item Here";
+
+"Add more items" = "Add more items";
+"item Total" =     "item Total";
+"Tax & Charges" =  "Tax & Charges";
+"Grand Total"=     "Grand Total";
+
+
+"currentNoFev" = "Currently No favourites Added";
+
+//searchno//
+"Please search with Restaurent/Food name" = "Please search with Restaurent/Food name";
+
+
+//OTP//
+"Verify Mobile Number" = "Verify Mobile Number";
+"Enter OTP number send to your number" = "Enter OTP number send to your number";
+"submit" = "Submit";
+
+//Location//
+"Select Location" = "Select Location";
+"SELECT DELIVERY LOCATION" = "SELECT DELIVERY LOCATION";
+"CONFIRM LOCATION" = "CONFIRM LOCATION";
+
+
+//Home//
+"searchText" = "Search for Restaurent, items & more";
+"Snacks" = "Snacks";
+"View all" = "View all";
+"Near By Restaurant" = "Near By Restaurant";
+
+
+//Tabs//
+"Profile" = "Profile";
+"Cart" = "Cart";
+"Search" = "Search" ;
+"Offers" = "Offers";
+"Home" = "Home";
+
+
+//slide//
+"My Orders" = "My Orders";
+"My Places" = "My Places";
+"My Favorites" = "My Favorites";
+"My Wallet" = "My Wallet";
+"Invite Friend" = "Invite Friend";
+"Notifications" = "Notifications";
+"Settings" = "Settings";
+"Contact Us" = "Contact Us";
+"Join Us" = "Join Us";
+"LogOut" = "LogOut";
+"Login" = "Login";
+
+//profile//
+"Name" = "Name";
+"Email" = "Email";
+"Mobile Number" = "Mobile Number";
+"Address" = "Address";
+
+//search Restaurents//
+ "Search For Restaurents" = "Search For Restaurents";
+"Search for Restaurents,Item's & Food" = "Search for Restaurents,Item's & Food";
+"Most Searched and Bought" = "Most Searched and Bought";
+"Near by Popular Restaurents" = "Near by Popular Restaurents";
+
+
+
+"Biryani" = "Biryani";
+"Mandi" = "Mandi";
+"Pizza" = "Pizza";
+"Burger" = "Burger";
+"Sawarma" = "Sawarma";
+"Rumali" = "Rumali";
+"pasta" = "pasta";
+"Rumali" = "Rumali";
+
+
+//offers//
+"Offers for You"  = "Offers for You";
+"No Coupons Available" = "No Coupons Available";
+"Offers" = "Offers";
+
+//cart//
+"Cart" = "Cart";
+"No item avaliable" = "No item avaliable";
+
+"logoutLbl" = "Are you sure you want to LOGOUT?
+We con;t notify any messages if you
+logout from this application.es";
+"LOGOUT" = "LOGOUT";
+"CANCEL" = "CANCEL";
+"Cancel Order" = "Cancel Order";
+"Time Left" = "Time Left";
+
+
+//dish//
+"Search for Restaurants, Items & more" = "Search for Restaurants, Items & more";
+"addBtn" = "Add";
+
+
+//myOrders//
+"My Orders" =      "My Orders";
+"Current Orders" = "Current Orders";
+"Past Order" =     "Past Order";
+"Order Details" = "Order Details";
+"Modify" = "Modify";
+
+
+//JOINUS//
+"designLblLl" = "From Design For Shop/Restaurants";
+"joinUsL" = "Join Us";
+"businessLblL" = "Business Name";
+"businessTypeL" = "Business Type";
+"contactPeesonL" = "Contact Person Name";
+"MobileL" = "Mobile No";
+"emailL" = "Email ID";
+"desciptionL" = "Description";
+"Sign In" = "Sign In";
+"Submit" = "Submit";
+
+//RecipeDetails//
+
+"RecipeDetails" = "Recipe Details";
+"AddonL"        = "Add-on";
+"addtheBasketL" = "Add to The Basket";
+"Add Comments" = "Add Comments";
+"Add your Comment Here" = "Add your Comment Here";
+
+
+
+//paywith//
+
+"paywith" = "Pay With";
+
+//pay now//
+
+
+"DelivertLocL" = "Delivery Location";
+"payWithL" = "Pay With";
+"paynowBtn" = "Pay Now";
+"selectPaymentBtnn" = "Select Payment";
+
+"Please select payment type" = "Please select payment type";
+"Alert" = "Alert";
+
+"takeAway" = "Take Away";
+"ordernow" = "Order Now";
+
+"totalsaving" = "Your total savings";
+"listofselect" = "List of Your Selected items";
+"addspe" = "Add Special Notes";
+
+
+"basket" = "Basket";
+
+"myplaces" = "My Places";
+"myplacesDoha" = "My Places around Doha";
+
+
+"myFev" = "My Favorites";
+"orderNow" = "OrderNow";
+
+
+"addMonyWL" = "Add Money toBaseet Wallet";
+"proceedtAdd" = "Proceed to add QR200";
+"anyDebitorCreditL" = "Add any Debit or Credit card for faster payments";
+"addnewCrdL" = "+ Add new Card";
+"TermsConditions" = "Terms & Conditions";
+"myWalletL" = "My Wallet";
+
+"refaralCodeL" = "Your Refferal Code";
+"inviteFrndsL" = "Invite Friends";
+"pastReferalL" = "Past your refferal Code here";
+
+
+"notificayionL" = "Notifications";
+
+"contactUsL" = "Contact-us";
+
+"settingsL" = "Settings";
+
+
+"Edit" = "Edit Profile";
+"Security" = "Security";
+"Notifications" = "Notifications";
+"Change Location" = "Change Location";
+
+
+"Name" = "Name";
+"Email" ="Email";
+"Location" ="Location";
+"Phone Number" ="Phone Number";
+"Password" ="Password";
+
+"esitPrfilrL" = "Edit Profile";
+"uploadL" = "Upload Photo";
+
+
+"Save" = "Save";
+"showall" = "Show all notification content";
+"hideall" = "Hide all notification content";
+"dontshow" = "Don't show notifications at all";
+
+
+"Order Processed" = "Order Processed";
+"Order On the Way" = "Order On the Way";
+"Order Delivered" = "Order Delivered";
+
+"walletBalance" = "Wallet Balance";
+"Delete" = "Delete";
+"Are you sure you want to delete the Address" = "Are you sure you want to delete the Address";
+"Add" = "Add";
+"Yes" = "Yes";
+"No" = "No";
+"Done" = "Done";
+"Customize" = "Customize";
+"Apply" = "Apply";
+"Remove" = "Remove";
+"Cash" = "Cash";
+"Card" = "Card";
+"Placed Sucessfully" = "Placed Sucessfully";
+"Order" = "Order";
+"Delivered Sucessfully" = "Delivered Sucessfully";
+"Total Charge" = "Total Charge";
+"Delivery Charge" = "Delivery Charge";
+"Coupon" = "Coupon";
+"Order Details" = "Order Details";
+"Addons" = "Addons";
+"ApplyCouponCode" = "ApplyCouponCode";
+"Contact-Us" = "Contact-Us";
+"OrderID" = "OrderID";
+"Add More Item" = "Add More Item";
+"Add Your Comment Here" = "Add Your Comment Here";
+"Change Location" = "Change Location";
+"Name" = "Name";
+"Zone" = "Zone";
+"Address Short Name" = "Address Short Name";
+"Street" = "Street";
+"Building No" = "Building No";
+"Floor (Optional)" = "Floor (Optional)";
+"Phone No (Optional)" = "Phone No (Optional)";
+"Work" = "Work";
+"Delivery Person Details" = "Delivery Person Details";
+"Add new Place" = "Add new Place";
+"Others" = "Others";
+"Select Delivery Location"= "Select Delivery Location";
+"Delivery Charge" = "Delivery Charge";
+"Discount Amount" = "Discount Amount";
+"Add Note" = "Add Note";
+"Enter OTP" = "Enter OTP";
+"Tell About Service" = "Tell About Service";
+"Give Some Feedback In Words" = "Give Some Feedback In Words";
+"Rate Your Overall Experience" = "Rate Your Overall Experience";
+"How is the Delivery" = "How is the Delivery";
+"Rate Your Order" = "Rate Your Order";
+"Leave Feedback About Your Meal And Delivery" = "Leave Feedback About Your Meal And Delivery";
+"Your Feedback Improves The Delivery Experience" = "Your Feedback Improves The Delivery Experience";
+"Order Now" = "Order Now";
+"Delivered At" = "Delivered At";
+"On" = "On";
+"Coupon Not Found" = "Coupon Not Found";
+"Okay" = "Okay";
+"Baseet" = "Baseet";
+"PLEASE ENTER ZONE " = "PLEASE ENTER ZONE";
+"PLEASE ENTER BUILDING NO" = "PLEASE ENTER BUILDING NO";
+"PLEASE ENTER STREET NO" = "PLEASE ENTER STREET NO";
+"Add To Cart Successfully" = "Add To Cart Successfully";
+"Service Is Not Available In This Area" = "Service Is Not Available In This Area";
+"This is different restaurant. You have to clear the cart first." = "This is different restaurant. You have to clear the cart first.";
+"Please Input Mobile Number" = "Please Input Mobile Number";
+"Please fill up the mandatory fields" = "Please fill up the mandatory fields";
+"Please Select A Payment Method" = "Please Select A Payment Method";
+"Location Is Not Updated" = "Location Is Not Updated";
+"Add To Basket" = "Add To Basket";
+"Please Login" = "Please Login";
+"Schedule Order" = "Schedule Order";
+"Enter Date" = "Enter Date";
+"Enter Time" = "Enter Time";
+"Scheduled Sucessfully" = "Scheduled Sucessfully";
+"Delete Account" = "Delete Account";
+"We're sorry to see you" = "We're sorry to see you";
+"Nevermind, keep you account" = "Nevermind, keep you account";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,723 @@
+2022-11-09 11:43:50 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff245727840; archive(resolved)="<IDEArchive: 0x600016a25ce0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff245727840; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7ff245721300; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2468d3890; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff245704af0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff25c9c9280; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2457117a0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2468eaaf0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2468ea8f0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2468838f0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001eb3d00; teamID='D3MKM2YJ85', teamName='Syed Abdul mujeeb', teamType='Individual', username='syed@amtechgcc.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7ff2468e4550; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="(null)">
+	<IDEDistributionContext: 0x7ff26d4ca610; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="(null)">
+	<IDEDistributionContext: 0x7ff25cb5d3e0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="(null)">
+	<IDEDistributionContext: 0x7ff2468dd5b0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000c2d7940>", team="(null)">
+	<IDEDistributionContext: 0x7ff26b91abf0; archive = "<IDEArchive: 0x600016a25ce0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7ff245727840>
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCreateDestRootStep
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCopyItemStep
+2022-11-09 11:43:50 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app'
+2022-11-09 11:43:50 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app 
+2022-11-09 11:43:50 +0000  copying file ./ImageUploadTVCell.nib ... 
+2022-11-09 11:43:50 +0000  6101 bytes for ./ImageUploadTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  27887 bytes for ./_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Lato-Italic.ttf ... 
+2022-11-09 11:43:50 +0000  723544 bytes for ./Lato-Italic.ttf
+2022-11-09 11:43:50 +0000  copying file ./ar.lproj/LaunchScreen.strings ... 
+2022-11-09 11:43:50 +0000  1 bytes for ./ar.lproj/LaunchScreen.strings
+2022-11-09 11:43:50 +0000  copying file ./ar.lproj/Main.strings ... 
+2022-11-09 11:43:50 +0000  937 bytes for ./ar.lproj/Main.strings
+copying file ./ar.lproj/Localizable.strings ... 
+2022-11-09 11:43:50 +0000  7547 bytes for ./ar.lproj/Localizable.strings
+2022-11-09 11:43:50 +0000  copying file ./Baseet ... 
+2022-11-09 11:43:50 +0000  1063328 bytes for ./Baseet
+2022-11-09 11:43:50 +0000  copying file ./en.lproj/Localizable.strings ... 
+2022-11-09 11:43:50 +0000  5589 bytes for ./en.lproj/Localizable.strings
+2022-11-09 11:43:50 +0000  copying file ./Lato-Bold.ttf ... 
+2022-11-09 11:43:50 +0000  657188 bytes for ./Lato-Bold.ttf
+2022-11-09 11:43:50 +0000  copying file ./Lato-Black.ttf ... 
+2022-11-09 11:43:50 +0000  614544 bytes for ./Lato-Black.ttf
+2022-11-09 11:43:50 +0000  copying file ./OrderListHeaderTVCell.nib ... 
+2022-11-09 11:43:50 +0000  4655 bytes for ./OrderListHeaderTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./OrderItemSectionTVCell.nib ... 
+2022-11-09 11:43:50 +0000  3299 bytes for ./OrderItemSectionTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./AppIcon60x60@2x.png ... 
+2022-11-09 11:43:50 +0000  7647 bytes for ./AppIcon60x60@2x.png
+2022-11-09 11:43:50 +0000  copying file ./PopOverViewController.nib ... 
+2022-11-09 11:43:50 +0000  3118 bytes for ./PopOverViewController.nib
+2022-11-09 11:43:50 +0000  copying file ./Lato-Regular.ttf ... 
+2022-11-09 11:43:50 +0000  657212 bytes for ./Lato-Regular.ttf
+2022-11-09 11:43:50 +0000  copying file ./FormTVCell.nib ... 
+2022-11-09 11:43:50 +0000  5939 bytes for ./FormTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/Main.storyboardc/N41-a8-apr-view-11R-4s-JRp.nib ... 
+2022-11-09 11:43:50 +0000  8220 bytes for ./Base.lproj/Main.storyboardc/N41-a8-apr-view-11R-4s-JRp.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/Main.storyboardc/OTPVerficationVC.nib ... 
+2022-11-09 11:43:50 +0000  1154 bytes for ./Base.lproj/Main.storyboardc/OTPVerficationVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/Main.storyboardc/RootNavigationContoller.nib ... 
+2022-11-09 11:43:50 +0000  2143 bytes for ./Base.lproj/Main.storyboardc/RootNavigationContoller.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-11-09 11:43:50 +0000  10310 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2022-11-09 11:43:50 +0000  233 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/LoginVC.nib ... 
+2022-11-09 11:43:50 +0000  1425 bytes for ./Base.lproj/Main.storyboardc/LoginVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-11-09 11:43:50 +0000  1708 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-11-09 11:43:50 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2022-11-09 11:43:50 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-11-09 11:43:50 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Assets.car ... 
+2022-11-09 11:43:50 +0000  6319920 bytes for ./Assets.car
+2022-11-09 11:43:50 +0000  copying file ./OrderItemsListTVCell.nib ... 
+2022-11-09 11:43:50 +0000  5712 bytes for ./OrderItemsListTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2022-11-09 11:43:50 +0000  10708 bytes for ./AppIcon76x76@2x~ipad.png
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/AccountVC.nib ... 
+2022-11-09 11:43:50 +0000  1529 bytes for ./Tabbar.storyboardc/AccountVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/ProductListVC.nib ... 
+2022-11-09 11:43:50 +0000  1393 bytes for ./Tabbar.storyboardc/ProductListVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/6aA-t6-esE-view-Uqx-rK-NIo.nib ... 
+2022-11-09 11:43:50 +0000  4858 bytes for ./Tabbar.storyboardc/6aA-t6-esE-view-Uqx-rK-NIo.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/EarningsVC.nib ... 
+2022-11-09 11:43:50 +0000  1142 bytes for ./Tabbar.storyboardc/EarningsVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/RevenueVC.nib ... 
+2022-11-09 11:43:50 +0000  1139 bytes for ./Tabbar.storyboardc/RevenueVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/nmZ-Ii-Z4y-view-43e-OX-3QL.nib ... 
+2022-11-09 11:43:50 +0000  15690 bytes for ./Tabbar.storyboardc/nmZ-Ii-Z4y-view-43e-OX-3QL.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/EditTimingVC.nib ... 
+2022-11-09 11:43:50 +0000  1146 bytes for ./Tabbar.storyboardc/EditTimingVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/5jI-3x-2Ze-view-lZd-5T-rsP.nib ... 
+2022-11-09 11:43:50 +0000  12075 bytes for ./Tabbar.storyboardc/5jI-3x-2Ze-view-lZd-5T-rsP.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/SvL-mY-BfA-view-75j-gQ-c4j.nib ... 
+2022-11-09 11:43:50 +0000  14371 bytes for ./Tabbar.storyboardc/SvL-mY-BfA-view-75j-gQ-c4j.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/CBY-h6-AOW-view-gmZ-Ae-QUF.nib ... 
+2022-11-09 11:43:50 +0000  5587 bytes for ./Tabbar.storyboardc/CBY-h6-AOW-view-gmZ-Ae-QUF.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/Oar-kt-WL6-view-Mtl-TN-Ncm.nib ... 
+2022-11-09 11:43:50 +0000  5583 bytes for ./Tabbar.storyboardc/Oar-kt-WL6-view-Mtl-TN-Ncm.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/EditRestaurantVC.nib ... 
+2022-11-09 11:43:50 +0000  1154 bytes for ./Tabbar.storyboardc/EditRestaurantVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/wjA-Ef-9dM-view-rfR-7x-yr6.nib ... 
+2022-11-09 11:43:50 +0000  15281 bytes for ./Tabbar.storyboardc/wjA-Ef-9dM-view-rfR-7x-yr6.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/jsb-fR-PmM-view-vF4-1O-nfs.nib ... 
+2022-11-09 11:43:50 +0000  5108 bytes for ./Tabbar.storyboardc/jsb-fR-PmM-view-vF4-1O-nfs.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/OrderTrackingVC.nib ... 
+2022-11-09 11:43:50 +0000  1152 bytes for ./Tabbar.storyboardc/OrderTrackingVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/AddProductVC.nib ... 
+2022-11-09 11:43:50 +0000  1392 bytes for ./Tabbar.storyboardc/AddProductVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/EaO-Uc-Ivd-view-Iom-ys-yu1.nib ... 
+2022-11-09 11:43:50 +0000  5574 bytes for ./Tabbar.storyboardc/EaO-Uc-Ivd-view-Iom-ys-yu1.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/HomeVC.nib ... 
+2022-11-09 11:43:50 +0000  1380 bytes for ./Tabbar.storyboardc/HomeVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/OrderDetailsVC.nib ... 
+2022-11-09 11:43:50 +0000  1150 bytes for ./Tabbar.storyboardc/OrderDetailsVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/9Of-6K-aO0-view-8Eh-Ep-vB4.nib ... 
+2022-11-09 11:43:50 +0000  7262 bytes for ./Tabbar.storyboardc/9Of-6K-aO0-view-8Eh-Ep-vB4.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/DashboardVC.nib ... 
+2022-11-09 11:43:50 +0000  1041 bytes for ./Tabbar.storyboardc/DashboardVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/AddonsListVC.nib ... 
+2022-11-09 11:43:50 +0000  1392 bytes for ./Tabbar.storyboardc/AddonsListVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/q3k-YD-oIM-view-ywm-BY-DkE.nib ... 
+2022-11-09 11:43:50 +0000  12606 bytes for ./Tabbar.storyboardc/q3k-YD-oIM-view-ywm-BY-DkE.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/HVj-ZP-c4e-view-lHc-kI-3Bd.nib ... 
+2022-11-09 11:43:50 +0000  5572 bytes for ./Tabbar.storyboardc/HVj-ZP-c4e-view-lHc-kI-3Bd.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/aUk-l8-KIY-view-u9a-dV-4Wc.nib ... 
+2022-11-09 11:43:50 +0000  5572 bytes for ./Tabbar.storyboardc/aUk-l8-KIY-view-u9a-dV-4Wc.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/0mn-Dc-I1j-view-6PZ-fE-DWH.nib ... 
+2022-11-09 11:43:50 +0000  12417 bytes for ./Tabbar.storyboardc/0mn-Dc-I1j-view-6PZ-fE-DWH.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/SelectAddonVC.nib ... 
+2022-11-09 11:43:50 +0000  1148 bytes for ./Tabbar.storyboardc/SelectAddonVC.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/wl3-4c-vMQ-view-YV6-j1-uvV.nib ... 
+2022-11-09 11:43:50 +0000  13121 bytes for ./Tabbar.storyboardc/wl3-4c-vMQ-view-YV6-j1-uvV.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/nuV-uN-jKP-view-riU-Wi-ITf.nib ... 
+2022-11-09 11:43:50 +0000  9717 bytes for ./Tabbar.storyboardc/nuV-uN-jKP-view-riU-Wi-ITf.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/Info.plist ... 
+2022-11-09 11:43:50 +0000  624 bytes for ./Tabbar.storyboardc/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/TabBarViewController.nib ... 
+2022-11-09 11:43:50 +0000  5507 bytes for ./Tabbar.storyboardc/TabBarViewController.nib
+2022-11-09 11:43:50 +0000  copying file ./Tabbar.storyboardc/CreateAddOnVC.nib ... 
+2022-11-09 11:43:50 +0000  1148 bytes for ./Tabbar.storyboardc/CreateAddOnVC.nib
+2022-11-09 11:43:50 +0000  copying file ./OrderNotesTVCell.nib ... 
+2022-11-09 11:43:50 +0000  4447 bytes for ./OrderNotesTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./ProductTVCell.nib ... 
+2022-11-09 11:43:50 +0000  6460 bytes for ./ProductTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./PopOverTVCell.nib ... 
+2022-11-09 11:43:50 +0000  3643 bytes for ./PopOverTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./Lato-BoldItalic.ttf ... 
+2022-11-09 11:43:50 +0000  699008 bytes for ./Lato-BoldItalic.ttf
+2022-11-09 11:43:50 +0000  copying file ./ChargesTVCell.nib ... 
+2022-11-09 11:43:50 +0000  7183 bytes for ./ChargesTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./Lato-Light.ttf ... 
+2022-11-09 11:43:50 +0000  644556 bytes for ./Lato-Light.ttf
+2022-11-09 11:43:50 +0000  copying file ./Lato-Medium.ttf ... 
+2022-11-09 11:43:50 +0000  637068 bytes for ./Lato-Medium.ttf
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  1798 bytes for ./Frameworks/Reachability.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Reachability.framework/Reachability ... 
+2022-11-09 11:43:50 +0000  162048 bytes for ./Frameworks/Reachability.framework/Reachability
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Reachability.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  793 bytes for ./Frameworks/Reachability.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/libswift_Concurrency.dylib ... 
+2022-11-09 11:43:50 +0000  558752 bytes for ./Frameworks/libswift_Concurrency.dylib
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/OTPFieldView.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  1798 bytes for ./Frameworks/OTPFieldView.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/OTPFieldView.framework/OTPFieldView ... 
+2022-11-09 11:43:50 +0000  160080 bytes for ./Frameworks/OTPFieldView.framework/OTPFieldView
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/OTPFieldView.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  793 bytes for ./Frameworks/OTPFieldView.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  4050 bytes for ./Frameworks/SASScrolletSegment.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment ... 
+2022-11-09 11:43:50 +0000  153264 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASSegmentsView.nib ... 
+2022-11-09 11:43:50 +0000  5119 bytes for ./Frameworks/SASScrolletSegment.framework/SASSegmentsView.nib
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  2028 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeDirectory ... 
+2022-11-09 11:43:50 +0000  176 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeDirectory
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements-1 ... 
+2022-11-09 11:43:50 +0000  224 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements-1
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeSignature ... 
+2022-11-09 11:43:50 +0000  4872 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeSignature
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements ... 
+2022-11-09 11:43:50 +0000  200 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/SASSegmentsView.nib ... 
+2022-11-09 11:43:50 +0000  5119 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/SASSegmentsView.nib
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/Info.plist ... 
+2022-11-09 11:43:50 +0000  782 bytes for ./Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/SASScrolletSegment.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  807 bytes for ./Frameworks/SASScrolletSegment.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  1798 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2022-11-09 11:43:50 +0000  773456 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  815 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  1798 bytes for ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Toast_Swift.framework/Toast_Swift ... 
+2022-11-09 11:43:50 +0000  197296 bytes for ./Frameworks/Toast_Swift.framework/Toast_Swift
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/Toast_Swift.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  791 bytes for ./Frameworks/Toast_Swift.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:50 +0000  1798 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2022-11-09 11:43:50 +0000  153712 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+2022-11-09 11:43:50 +0000  copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+2022-11-09 11:43:50 +0000  795 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+2022-11-09 11:43:50 +0000  copying file ./embedded.mobileprovision ... 
+2022-11-09 11:43:50 +0000  31929 bytes for ./embedded.mobileprovision
+2022-11-09 11:43:50 +0000  copying file ./SelectAddonTVCell.nib ... 
+2022-11-09 11:43:50 +0000  6106 bytes for ./SelectAddonTVCell.nib
+2022-11-09 11:43:50 +0000  copying file ./Info.plist ... 
+2022-11-09 11:43:50 +0000  2019 bytes for ./Info.plist
+2022-11-09 11:43:50 +0000  copying file ./PkgInfo ... 
+2022-11-09 11:43:50 +0000  8 bytes for ./PkgInfo
+2022-11-09 11:43:50 +0000  /usr/bin/ditto exited with 0
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionEmbedProfileStep
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016a11c80; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x60000af44a00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0154a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ad760; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x60001a9a2c30:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016ac9440; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x60001eb42060:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ad760; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x60001ebde3e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016a11da0; bundleID='org.cocoapods.OTPFieldView', path='<DVTFilePath:0x60001eb45960:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02e120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ad760; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.OTPFieldView', executablePath='<DVTFilePath:0x60001ebdad80:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016aca940; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x60001eb371e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ad760; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x60001a996e60:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016a12400; bundleID='org.cocoapods.SASScrolletSegment', path='<DVTFilePath:0x60000af44980:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0f3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ad760; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.SASScrolletSegment', executablePath='<DVTFilePath:0x60001ebd8e00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016acb360; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x60001eb348c0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02cc80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e5340; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x60001a9b9c70:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping profile for item: <IDEDistributionItem: 0x600016a12280; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e5340; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionInfoPlistStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionSymbolsStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionAppThinningStep
+2022-11-09 11:43:50 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionArchThinningStep
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "IQKeyboardManagerSwift" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "MBProgressHUD" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "OTPFieldView" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Reachability.framework/Reachability' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "Reachability" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "SASScrolletSegment" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "Toast_Swift" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "libswift_Concurrency.dylib" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Baseet' '-verify_arch' 'arm64e'
+2022-11-09 11:43:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-09 11:43:50 +0000  Skipping architecture thinning for item "Baseet" because arch "arm64e" wasn't found
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionODRStep
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionStripXattrsStep
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016a11c80; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x60000af44a00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0154a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x60001a9a2c30:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016ac9440; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x60001eb42060:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x60001ebde3e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016a11da0; bundleID='org.cocoapods.OTPFieldView', path='<DVTFilePath:0x60001eb45960:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02e120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.OTPFieldView', executablePath='<DVTFilePath:0x60001ebdad80:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016aca940; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x60001eb371e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x60001a996e60:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016a12400; bundleID='org.cocoapods.SASScrolletSegment', path='<DVTFilePath:0x60000af44980:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0f3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.SASScrolletSegment', executablePath='<DVTFilePath:0x60001ebd8e00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016acb360; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x60001eb348c0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02cc80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x60001a9b9c70:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600016a12280; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2022-11-09 11:43:50 +0000  Running /usr/bin/xattr '-crs' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app'
+2022-11-09 11:43:50 +0000  /usr/bin/xattr exited with 0
+2022-11-09 11:43:50 +0000  Processing step: IDEDistributionCodesignStep
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a11c80; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x60000af44a00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0154a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e5130; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x60001a9a2c30:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a11c80; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x60000af44a00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0154a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x60001a9a2c30:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016a11c80; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x60000af44a00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0154a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e51e0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x60001a9a2c30:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~5BrV62
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~5BrV62' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.IQKeyboardManagerSwift]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016ac9440; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x60001eb42060:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7691e0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x60001ebde3e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016ac9440; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x60001eb42060:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x60001ebde3e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016ac9440; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x60001eb42060:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02eb20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x60001ebde3e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~FpSXXH
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~FpSXXH' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/MBProgressHUD.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/MBProgressHUD.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.MBProgressHUD]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a11da0; bundleID='org.cocoapods.OTPFieldView', path='<DVTFilePath:0x60001eb45960:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02e120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b765d90; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.OTPFieldView', executablePath='<DVTFilePath:0x60001ebdad80:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a11da0; bundleID='org.cocoapods.OTPFieldView', path='<DVTFilePath:0x60001eb45960:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02e120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.OTPFieldView', executablePath='<DVTFilePath:0x60001ebdad80:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016a11da0; bundleID='org.cocoapods.OTPFieldView', path='<DVTFilePath:0x60001eb45960:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02e120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.OTPFieldView', executablePath='<DVTFilePath:0x60001ebdad80:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~vhg3pb
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~vhg3pb' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/OTPFieldView.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/OTPFieldView.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/OTPFieldView.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.OTPFieldView]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016aca940; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x60001eb371e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e5130; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x60001a996e60:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016aca940; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x60001eb371e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b76bc80; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x60001a996e60:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016aca940; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x60001eb371e0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e54a0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x60001a996e60:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~iGvo9o
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~iGvo9o' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Reachability.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Reachability.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Reachability.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Reachability]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a12400; bundleID='org.cocoapods.SASScrolletSegment', path='<DVTFilePath:0x60000af44980:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0f3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b76c210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.SASScrolletSegment', executablePath='<DVTFilePath:0x60001ebd8e00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a12400; bundleID='org.cocoapods.SASScrolletSegment', path='<DVTFilePath:0x60000af44980:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0f3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.SASScrolletSegment', executablePath='<DVTFilePath:0x60001ebd8e00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016a12400; bundleID='org.cocoapods.SASScrolletSegment', path='<DVTFilePath:0x60000af44980:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e0f3ed0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.SASScrolletSegment', executablePath='<DVTFilePath:0x60001ebd8e00:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~tJFOHp
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~tJFOHp' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/SASScrolletSegment.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/SASScrolletSegment.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/SASScrolletSegment.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SASScrolletSegment]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016acb360; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x60001eb348c0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02cc80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e5130; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x60001a9b9c70:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016acb360; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x60001eb348c0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02cc80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x60001a9b9c70:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:50 +0000  Writing entitlements for <IDEDistributionItem: 0x600016acb360; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x60001eb348c0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02cc80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e44d0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x60001a9b9c70:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~6Z3F9j
+2022-11-09 11:43:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~6Z3F9j' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Toast_Swift.framework'
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Toast_Swift.framework: replacing existing signature
+2022-11-09 11:43:50 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Toast_Swift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Toast-Swift]
+2022-11-09 11:43:50 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:50 +0000  Entitlements for <IDEDistributionItem: 0x600016a12280; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000074ecfd0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-11-09 11:43:51 +0000  Entitlements for <IDEDistributionItem: 0x600016a12280; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-11-09 11:43:51 +0000  Writing entitlements for <IDEDistributionItem: 0x600016a12280; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4210; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='(null)', teamID='D3MKM2YJ85', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000ef34280:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~8kcXWg
+2022-11-09 11:43:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~8kcXWg' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib'
+2022-11-09 11:43:51 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib: replacing existing signature
+2022-11-09 11:43:51 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib: signed Mach-O thin (arm64) [com.apple.dt.runtime.swiftConcurrency]
+2022-11-09 11:43:51 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:51 +0000  Entitlements for <IDEDistributionItem: 0x600016a12580; bundleID='com.Baseet.Restaurant', path='<DVTFilePath:0x60001a9a35d0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02f0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4420; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='{
+    "application-identifier" = "D3MKM2YJ85.com.Baseet.Restaurant";
+    "com.apple.developer.team-identifier" = D3MKM2YJ85;
+    "get-task-allow" = 1;
+}', teamID='D3MKM2YJ85', identifier='com.Baseet.Restaurant', executablePath='<DVTFilePath:0x600016ac9380:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Baseet'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D3MKM2YJ85.com.Baseet.Restaurant";
+    "com.apple.developer.team-identifier" = D3MKM2YJ85;
+    "get-task-allow" = 1;
+}
+2022-11-09 11:43:51 +0000  Entitlements for <IDEDistributionItem: 0x600016a12580; bundleID='com.Baseet.Restaurant', path='<DVTFilePath:0x60001a9a35d0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02f0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7691e0; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='{
+    "application-identifier" = "D3MKM2YJ85.com.Baseet.Restaurant";
+    "com.apple.developer.team-identifier" = D3MKM2YJ85;
+    "get-task-allow" = 1;
+}', teamID='D3MKM2YJ85', identifier='com.Baseet.Restaurant', executablePath='<DVTFilePath:0x600016ac9380:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Baseet'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D3MKM2YJ85.com.Baseet.Restaurant";
+    "com.apple.developer.team-identifier" = D3MKM2YJ85;
+    "get-task-allow" = 1;
+}
+2022-11-09 11:43:51 +0000  Writing entitlements for <IDEDistributionItem: 0x600016a12580; bundleID='com.Baseet.Restaurant', path='<DVTFilePath:0x60001a9a35d0:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e02f0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b7e4580; name='Apple Development: Syed Abdul mujeeb (UBN77F88D7)', hash='5C67AD3A2B1699F00EB48563AE5B20376194B2E3', serialNumber='1628E698CD705E527310725AE8B6228B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-08 06:20:41 +0000''>', entitlements='{
+    "application-identifier" = "D3MKM2YJ85.com.Baseet.Restaurant";
+    "com.apple.developer.team-identifier" = D3MKM2YJ85;
+    "get-task-allow" = 1;
+}', teamID='D3MKM2YJ85', identifier='com.Baseet.Restaurant', executablePath='<DVTFilePath:0x600016ac9380:'/Users/apple/Library/Developer/Xcode/Archives/2022-11-09/Baseet 09-11-22, 5.12 PM.xcarchive/Products/Applications/Baseet.app/Baseet'>', hardenedRuntime='0'>'> to: /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~p9ituk
+2022-11-09 11:43:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5C67AD3A2B1699F00EB48563AE5B20376194B2E3' '--entitlements' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/entitlements~~~p9ituk' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app'
+2022-11-09 11:43:51 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app: replacing existing signature
+2022-11-09 11:43:51 +0000  /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app: signed app bundle with Mach-O thin (arm64) [com.Baseet.Restaurant]
+2022-11-09 11:43:51 +0000  /usr/bin/codesign exited with 0
+2022-11-09 11:43:51 +0000  Processing step: IDEDistributionZipODRItemStep
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-09 11:43:51 +0000  Processing step: IDEDistributionCreateIPAStep
+2022-11-09 11:43:51 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root' '/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Packages/Baseet.ipa'
+2022-11-09 11:43:51 +0000  >>> Copying /var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root 
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/ImageUploadTVCell.nib ... 
+2022-11-09 11:43:51 +0000  6101 bytes for ./Payload/Baseet.app/ImageUploadTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  27887 bytes for ./Payload/Baseet.app/_CodeSignature/CodeResources
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Lato-Italic.ttf ... 
+2022-11-09 11:43:51 +0000  723544 bytes for ./Payload/Baseet.app/Lato-Italic.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/ar.lproj/LaunchScreen.strings ... 
+1 bytes for ./Payload/Baseet.app/ar.lproj/LaunchScreen.strings
+copying file ./Payload/Baseet.app/ar.lproj/Main.strings ... 
+2022-11-09 11:43:51 +0000  937 bytes for ./Payload/Baseet.app/ar.lproj/Main.strings
+copying file ./Payload/Baseet.app/ar.lproj/Localizable.strings ... 
+2022-11-09 11:43:51 +0000  7547 bytes for ./Payload/Baseet.app/ar.lproj/Localizable.strings
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Baseet ... 
+2022-11-09 11:43:51 +0000  1063328 bytes for ./Payload/Baseet.app/Baseet
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/en.lproj/Localizable.strings ... 
+5589 bytes for ./Payload/Baseet.app/en.lproj/Localizable.strings
+copying file ./Payload/Baseet.app/Lato-Bold.ttf ... 
+2022-11-09 11:43:51 +0000  657188 bytes for ./Payload/Baseet.app/Lato-Bold.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Lato-Black.ttf ... 
+2022-11-09 11:43:51 +0000  614544 bytes for ./Payload/Baseet.app/Lato-Black.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/OrderListHeaderTVCell.nib ... 
+2022-11-09 11:43:51 +0000  4655 bytes for ./Payload/Baseet.app/OrderListHeaderTVCell.nib
+copying file ./Payload/Baseet.app/OrderItemSectionTVCell.nib ... 
+2022-11-09 11:43:51 +0000  3299 bytes for ./Payload/Baseet.app/OrderItemSectionTVCell.nib
+copying file ./Payload/Baseet.app/AppIcon60x60@2x.png ... 
+2022-11-09 11:43:51 +0000  7647 bytes for ./Payload/Baseet.app/AppIcon60x60@2x.png
+copying file ./Payload/Baseet.app/PopOverViewController.nib ... 
+2022-11-09 11:43:51 +0000  3118 bytes for ./Payload/Baseet.app/PopOverViewController.nib
+copying file ./Payload/Baseet.app/Lato-Regular.ttf ... 
+2022-11-09 11:43:51 +0000  657212 bytes for ./Payload/Baseet.app/Lato-Regular.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/FormTVCell.nib ... 
+2022-11-09 11:43:51 +0000  5939 bytes for ./Payload/Baseet.app/FormTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/N41-a8-apr-view-11R-4s-JRp.nib ... 
+2022-11-09 11:43:51 +0000  8220 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/N41-a8-apr-view-11R-4s-JRp.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/OTPVerficationVC.nib ... 
+1154 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/OTPVerficationVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/RootNavigationContoller.nib ... 
+2143 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/RootNavigationContoller.nib
+copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-11-09 11:43:51 +0000  10310 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2022-11-09 11:43:51 +0000  233 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Baseet.app/Base.lproj/Main.storyboardc/LoginVC.nib ... 
+2022-11-09 11:43:51 +0000  1425 bytes for ./Payload/Baseet.app/Base.lproj/Main.storyboardc/LoginVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-11-09 11:43:51 +0000  1708 bytes for ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-11-09 11:43:51 +0000  896 bytes for ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-11-09 11:43:51 +0000  258 bytes for ./Payload/Baseet.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Assets.car ... 
+2022-11-09 11:43:51 +0000  6319920 bytes for ./Payload/Baseet.app/Assets.car
+copying file ./Payload/Baseet.app/OrderItemsListTVCell.nib ... 
+2022-11-09 11:43:51 +0000  5712 bytes for ./Payload/Baseet.app/OrderItemsListTVCell.nib
+copying file ./Payload/Baseet.app/AppIcon76x76@2x~ipad.png ... 
+10708 bytes for ./Payload/Baseet.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/AccountVC.nib ... 
+1529 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/AccountVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/ProductListVC.nib ... 
+1393 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/ProductListVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/6aA-t6-esE-view-Uqx-rK-NIo.nib ... 
+2022-11-09 11:43:51 +0000  4858 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/6aA-t6-esE-view-Uqx-rK-NIo.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/EarningsVC.nib ... 
+1142 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/EarningsVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/RevenueVC.nib ... 
+2022-11-09 11:43:51 +0000  1139 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/RevenueVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/nmZ-Ii-Z4y-view-43e-OX-3QL.nib ... 
+2022-11-09 11:43:51 +0000  15690 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/nmZ-Ii-Z4y-view-43e-OX-3QL.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/EditTimingVC.nib ... 
+2022-11-09 11:43:51 +0000  1146 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/EditTimingVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/5jI-3x-2Ze-view-lZd-5T-rsP.nib ... 
+2022-11-09 11:43:51 +0000  12075 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/5jI-3x-2Ze-view-lZd-5T-rsP.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/SvL-mY-BfA-view-75j-gQ-c4j.nib ... 
+2022-11-09 11:43:51 +0000  14371 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/SvL-mY-BfA-view-75j-gQ-c4j.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/CBY-h6-AOW-view-gmZ-Ae-QUF.nib ... 
+2022-11-09 11:43:51 +0000  5587 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/CBY-h6-AOW-view-gmZ-Ae-QUF.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/Oar-kt-WL6-view-Mtl-TN-Ncm.nib ... 
+2022-11-09 11:43:51 +0000  5583 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/Oar-kt-WL6-view-Mtl-TN-Ncm.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/EditRestaurantVC.nib ... 
+2022-11-09 11:43:51 +0000  1154 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/EditRestaurantVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/wjA-Ef-9dM-view-rfR-7x-yr6.nib ... 
+2022-11-09 11:43:51 +0000  15281 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/wjA-Ef-9dM-view-rfR-7x-yr6.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/jsb-fR-PmM-view-vF4-1O-nfs.nib ... 
+2022-11-09 11:43:51 +0000  5108 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/jsb-fR-PmM-view-vF4-1O-nfs.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/OrderTrackingVC.nib ... 
+2022-11-09 11:43:51 +0000  1152 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/OrderTrackingVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/AddProductVC.nib ... 
+2022-11-09 11:43:51 +0000  1392 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/AddProductVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/EaO-Uc-Ivd-view-Iom-ys-yu1.nib ... 
+2022-11-09 11:43:51 +0000  5574 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/EaO-Uc-Ivd-view-Iom-ys-yu1.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/HomeVC.nib ... 
+2022-11-09 11:43:51 +0000  1380 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/HomeVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/OrderDetailsVC.nib ... 
+2022-11-09 11:43:51 +0000  1150 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/OrderDetailsVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/9Of-6K-aO0-view-8Eh-Ep-vB4.nib ... 
+2022-11-09 11:43:51 +0000  7262 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/9Of-6K-aO0-view-8Eh-Ep-vB4.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/DashboardVC.nib ... 
+2022-11-09 11:43:51 +0000  1041 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/DashboardVC.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/AddonsListVC.nib ... 
+2022-11-09 11:43:51 +0000  1392 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/AddonsListVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/q3k-YD-oIM-view-ywm-BY-DkE.nib ... 
+2022-11-09 11:43:51 +0000  12606 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/q3k-YD-oIM-view-ywm-BY-DkE.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/HVj-ZP-c4e-view-lHc-kI-3Bd.nib ... 
+2022-11-09 11:43:51 +0000  5572 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/HVj-ZP-c4e-view-lHc-kI-3Bd.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/aUk-l8-KIY-view-u9a-dV-4Wc.nib ... 
+2022-11-09 11:43:51 +0000  5572 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/aUk-l8-KIY-view-u9a-dV-4Wc.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/0mn-Dc-I1j-view-6PZ-fE-DWH.nib ... 
+2022-11-09 11:43:51 +0000  12417 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/0mn-Dc-I1j-view-6PZ-fE-DWH.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/SelectAddonVC.nib ... 
+2022-11-09 11:43:51 +0000  1148 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/SelectAddonVC.nib
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/wl3-4c-vMQ-view-YV6-j1-uvV.nib ... 
+2022-11-09 11:43:51 +0000  13121 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/wl3-4c-vMQ-view-YV6-j1-uvV.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/nuV-uN-jKP-view-riU-Wi-ITf.nib ... 
+2022-11-09 11:43:51 +0000  9717 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/nuV-uN-jKP-view-riU-Wi-ITf.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/Info.plist ... 
+2022-11-09 11:43:51 +0000  624 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/Info.plist
+copying file ./Payload/Baseet.app/Tabbar.storyboardc/TabBarViewController.nib ... 
+2022-11-09 11:43:51 +0000  5507 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/TabBarViewController.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Tabbar.storyboardc/CreateAddOnVC.nib ... 
+2022-11-09 11:43:51 +0000  1148 bytes for ./Payload/Baseet.app/Tabbar.storyboardc/CreateAddOnVC.nib
+copying file ./Payload/Baseet.app/OrderNotesTVCell.nib ... 
+2022-11-09 11:43:51 +0000  4447 bytes for ./Payload/Baseet.app/OrderNotesTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/ProductTVCell.nib ... 
+2022-11-09 11:43:51 +0000  6460 bytes for ./Payload/Baseet.app/ProductTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/PopOverTVCell.nib ... 
+2022-11-09 11:43:51 +0000  3643 bytes for ./Payload/Baseet.app/PopOverTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Lato-BoldItalic.ttf ... 
+2022-11-09 11:43:51 +0000  699008 bytes for ./Payload/Baseet.app/Lato-BoldItalic.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/ChargesTVCell.nib ... 
+2022-11-09 11:43:51 +0000  7183 bytes for ./Payload/Baseet.app/ChargesTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Lato-Light.ttf ... 
+2022-11-09 11:43:51 +0000  644556 bytes for ./Payload/Baseet.app/Lato-Light.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Lato-Medium.ttf ... 
+2022-11-09 11:43:51 +0000  637068 bytes for ./Payload/Baseet.app/Lato-Medium.ttf
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  1798 bytes for ./Payload/Baseet.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/Reachability.framework/Reachability ... 
+2022-11-09 11:43:51 +0000  162320 bytes for ./Payload/Baseet.app/Frameworks/Reachability.framework/Reachability
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/Reachability.framework/Info.plist ... 
+793 bytes for ./Payload/Baseet.app/Frameworks/Reachability.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib ... 
+2022-11-09 11:43:51 +0000  559104 bytes for ./Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  1798 bytes for ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView ... 
+2022-11-09 11:43:51 +0000  160352 bytes for ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/OTPFieldView
+copying file ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/Info.plist ... 
+2022-11-09 11:43:51 +0000  793 bytes for ./Payload/Baseet.app/Frameworks/OTPFieldView.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  4050 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/_CodeSignature/CodeResources
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment ... 
+2022-11-09 11:43:51 +0000  153520 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASSegmentsView.nib ... 
+2022-11-09 11:43:51 +0000  5119 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASSegmentsView.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  2028 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeDirectory ... 
+2022-11-09 11:43:51 +0000  176 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeDirectory
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements-1 ... 
+2022-11-09 11:43:51 +0000  224 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements-1
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeSignature ... 
+2022-11-09 11:43:51 +0000  4872 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeSignature
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements ... 
+2022-11-09 11:43:51 +0000  200 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/_CodeSignature/CodeRequirements
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/SASSegmentsView.nib ... 
+2022-11-09 11:43:51 +0000  5119 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/SASSegmentsView.nib
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/Info.plist ... 
+2022-11-09 11:43:51 +0000  782 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/SASScrolletSegment.bundle/Info.plist
+copying file ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/Info.plist ... 
+2022-11-09 11:43:51 +0000  807 bytes for ./Payload/Baseet.app/Frameworks/SASScrolletSegment.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  1798 bytes for ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2022-11-09 11:43:51 +0000  773728 bytes for ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+copying file ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2022-11-09 11:43:51 +0000  815 bytes for ./Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  1798 bytes for ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift ... 
+2022-11-09 11:43:51 +0000  197568 bytes for ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/Toast_Swift
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/Info.plist ... 
+791 bytes for ./Payload/Baseet.app/Frameworks/Toast_Swift.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2022-11-09 11:43:51 +0000  1798 bytes for ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2022-11-09 11:43:51 +0000  153984 bytes for ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+795 bytes for ./Payload/Baseet.app/Frameworks/MBProgressHUD.framework/Info.plist
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/embedded.mobileprovision ... 
+2022-11-09 11:43:51 +0000  32091 bytes for ./Payload/Baseet.app/embedded.mobileprovision
+copying file ./Payload/Baseet.app/SelectAddonTVCell.nib ... 
+2022-11-09 11:43:51 +0000  6106 bytes for ./Payload/Baseet.app/SelectAddonTVCell.nib
+2022-11-09 11:43:51 +0000  copying file ./Payload/Baseet.app/Info.plist ... 
+2022-11-09 11:43:51 +0000  2019 bytes for ./Payload/Baseet.app/Info.plist
+copying file ./Payload/Baseet.app/PkgInfo ... 
+2022-11-09 11:43:51 +0000  8 bytes for ./Payload/Baseet.app/PkgInfo
+2022-11-09 11:43:51 +0000  /usr/bin/ditto exited with 0
+2022-11-09 11:43:51 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2022-11-09 11:43:51 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-11-09 11:43:51 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60001ebc57a0:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Reachability.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60001ebc5c00:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/OTPFieldView.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60000ac0a180:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/IQKeyboardManagerSwift.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60001ebc6d10:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/MBProgressHUD.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60001ebc6a70:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/Toast_Swift.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60000effb180:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib'>
+2022-11-09 11:43:51 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000effb180:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/libswift_Concurrency.dylib'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60000ac0af00:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app/Frameworks/SASScrolletSegment.framework'>
+2022-11-09 11:43:51 +0000  IDEDistributionItem init <DVTFilePath:0x60001ebf3250:'/var/folders/jw/d3k3jbbd1h32s0dd0r6n85pr0000gp/T/XcodeDistPipeline.~~~bZXt01/Root/Payload/Baseet.app'>
+2022-11-09 11:43:51 +0000  Processing step: IDEDistributionCreateManifestStep
