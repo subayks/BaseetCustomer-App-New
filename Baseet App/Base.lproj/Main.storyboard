@@ -4279,7 +4279,7 @@ meat, and sometimes, in addition, eggs and potatoes.</string>
                                                                     </attributedString>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <action selector="buttonAddItem:" destination="5cS-Mc-Sx8" eventType="touchUpInside" id="Xxc-Mh-EzL"/>
+                                                                    <action selector="actionReduceItem:" destination="5cS-Mc-Sx8" eventType="touchUpInside" id="LJi-at-hiD"/>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hu0-l8-gDh">
@@ -4303,7 +4303,7 @@ meat, and sometimes, in addition, eggs and potatoes.</string>
                                                                     </attributedString>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <action selector="actionReduceItem:" destination="5cS-Mc-Sx8" eventType="touchUpInside" id="WgT-ca-UM3"/>
+                                                                    <action selector="buttonAddItem:" destination="5cS-Mc-Sx8" eventType="touchUpInside" id="wD2-tO-gWT"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -11455,8 +11455,8 @@ logout from this application.es</string>
         <image name="otp" width="159.5" height="159.5"/>
         <image name="paytm" width="48" height="19"/>
         <image name="pedit" width="17" height="17"/>
-        <image name="person" width="153" height="138"/>
         <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person" width="153" height="138"/>
         <image name="person Logo" width="92" height="93"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="phone" catalog="system" width="128" height="115"/>

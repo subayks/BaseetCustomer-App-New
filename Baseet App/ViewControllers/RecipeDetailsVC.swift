@@ -97,6 +97,7 @@ class RecipeDetailsVC: UIViewController {
 //                self.resDishTB.reloadData()
 //                self.resDishCV.reloadData()
                 self.checkForCartButton()
+                self.labelCount.text = "\(self.itemCount)"
             }
         }
         
@@ -163,12 +164,8 @@ class RecipeDetailsVC: UIViewController {
     
     
     @IBAction func buttonAddItem(_ sender: Any) {
-        
-        
-        if itemCount > 1 {
-        itemCount = itemCount - 1
-        self.labelCount.text = "\(itemCount)"
-        }
+        itemCount = itemCount + 1
+        self.navigateToAdOnView(itemCount: itemCount, index: 0, isIncrementFlow: true)
     }
     
     @IBAction func backBtn(_ sender: Any) {
@@ -176,8 +173,11 @@ class RecipeDetailsVC: UIViewController {
     }
     
     @IBAction func actionReduceItem(_ sender: Any) {
-        itemCount = itemCount + 1
+        if itemCount > 1 || itemCount == 1 {
+        itemCount = itemCount - 1
         self.labelCount.text = "\(itemCount)"
+        self.recipeDetailsVCVM?.decideFlow(itemCount: itemCount, index: 0, isIncrementFlow: false)
+        }
     }
     
     @IBAction func addToBasketBtn(_ sender: Any) {
