@@ -91,13 +91,13 @@ class RecipeDetailsVC: UIViewController {
             }
         }
                 
-        self.recipeDetailsVCVM?.reloadRecipieCollectionView = { [weak self] in
+        self.recipeDetailsVCVM?.reloadRecipieCollectionView = { [weak self] (itemCountValue) in
             DispatchQueue.main.async {
                 guard let self = self else {return}
 //                self.resDishTB.reloadData()
 //                self.resDishCV.reloadData()
                 self.checkForCartButton()
-                self.labelCount.text = "\(self.itemCount)"
+                self.labelCount.text = "\(itemCountValue)"
             }
         }
         

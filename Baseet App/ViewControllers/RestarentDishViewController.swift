@@ -52,7 +52,6 @@ class RestarentDishViewController: UIViewController {
         resDishTB.dataSource = self
         menu_vc1 = self.storyboard?.instantiateViewController(withIdentifier: "RecipeDetailsVC") as? RecipeDetailsVC
         setupValues()
-        self.restarentDishViewControllerVM?.setUpItemsList()
         self.setupNavigationBar()
         //        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToGesture))
         //        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
@@ -64,6 +63,7 @@ class RestarentDishViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.restarentDishViewControllerVM?.setUpItemsList()
         self.buttonGoToCart.layer.cornerRadius = buttonGoToCart.frame.height/2
         self.buttonGoToCart.clipsToBounds = true
         buttonGoToCart.layer.borderWidth = 2

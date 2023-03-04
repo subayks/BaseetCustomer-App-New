@@ -10,6 +10,7 @@ import UIKit
 
 class RecipeDetailsVCVM {
     var proDuctDetailsModel: FoodItems?
+    var copoyOfproDuctDetailsModel: FoodItems?
     var index: Int?
     var apiServices: HomeApiServicesProtocol?
     var getCartModel: GetCartModel?
@@ -18,7 +19,7 @@ class RecipeDetailsVCVM {
     var errorClosure:((String)->())?
     var showLoadingIndicatorClosure:(()->())?
     var hideLoadingIndicatorClosure:(()->())?
-    var reloadRecipieCollectionView:(()->())?
+    var reloadRecipieCollectionView:((Int)->())?
     var newIndex: Int?
     var deleteClosure:((String)->())?
     var isNewAddon: Bool = false
@@ -27,9 +28,11 @@ class RecipeDetailsVCVM {
     var addToCartModel: AddToCartModel?
     var showAdOnClosure:((Int, Int, [AddOns])->())?
     var navigateToCartViewClosure:(()->())?
-
+    var finalItemCount: Int = 0
+    
     init(proDuctDetailsModel: FoodItems, index: Int, shopDetailsModel: ShopDetailsModel, apiServices: HomeApiServicesProtocol = HomeApiServices()) {
         self.shopDetailsModel = shopDetailsModel
+        self.copoyOfproDuctDetailsModel = proDuctDetailsModel
         self.apiServices = apiServices
         self.proDuctDetailsModel = proDuctDetailsModel
         self.index = index
@@ -68,12 +71,13 @@ class RecipeDetailsVCVM {
                     if status == true {
                         self.getCartModel = result as? GetCartModel
                         if self.getCartModel?.data?.count ?? 0 > 0 {
+                            self.proDuctDetailsModel = self.copoyOfproDuctDetailsModel
                             self.checkCurrentShopItems()
                         } else if isFromCartScreen {
                             let resID =  Int((UserDefaults.standard.string(forKey: "RestaurentId") ?? "") as String)
                           //  self.makeShopDetailsCall(limit: 10, id: resID ?? 0)
                         } else {
-                            self.reloadRecipieCollectionView?()
+                            self.reloadRecipieCollectionView?(self.finalItemCount)
                         }
                     } else {
                         self.alertClosure?(errorMessage ?? "Some Technical Problem")
@@ -88,9 +92,9 @@ class RecipeDetailsVCVM {
     func decideFlow(itemCount: Int, index: Int, addOns: [AddOns]? = nil, isIncrementFlow: Bool) {
         if self.proDuctDetailsModel?.cartId != nil {
             if self.isNewAdon(index: index, addOns: addOns) && isIncrementFlow {
-                self.createCartCall(itemCount: itemCount, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow)
+                self.createCartCall(itemCount: 1, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow)
             } else {
-                self.updateCartCall(itemCount: itemCount, index: self.newIndex ?? index, addOns: addOns, isIncrementFlow: isIncrementFlow)
+                self.updateCartCall(itemCount: self.proDuctDetailsModel?.itemQuantity ?? 0, index: self.newIndex ?? index, addOns: addOns, isIncrementFlow: isIncrementFlow)
             }
         } else {
             if itemCount > 0 {
@@ -99,7 +103,7 @@ class RecipeDetailsVCVM {
                     self.deleteClosure?(LocalizationSystem.sharedInstance.localizedStringForKey(key: "This is different restaurant. You have to clear the cart first.", comment: ""))
                 } else {
                     self.isNewAddon = true
-                    self.createCartCall(itemCount: itemCount, index: index, addOns: addOns)
+                    self.createCartCall(itemCount: 1, index: index, addOns: addOns)
                 }
             }
         }
@@ -227,6 +231,7 @@ class RecipeDetailsVCVM {
         } else {
             adOnQuantity = itemCount
         }
+        finalItemCount = adOnQuantity
         //Mostly Decrement flow
         if addOns == nil {
             if let addOnItems = item?.addOns, addOnItems.count > 0 {
@@ -366,7 +371,7 @@ class RecipeDetailsVCVM {
             //self.isInitialUpdate = false
           //  self.updatePreviousItems(cartdataModel: currentShopItem ?? [CartDataModel]())
         }
-        self.reloadRecipieCollectionView?()
+        self.reloadRecipieCollectionView?(self.finalItemCount)
     }
     
     func checkOtherShopItems() ->Bool{
