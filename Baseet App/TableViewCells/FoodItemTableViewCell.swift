@@ -10,7 +10,7 @@ import UIKit
 class FoodItemTableViewCell: UITableViewCell {
 
     @IBOutlet weak var foodItemCollectionView: UICollectionView!
-    var itemId:((Int)->())?
+    var itemId:((Int, Int)->())?
 
     var foodItemTableViewCellVM: FoodItemTableViewCellVM? {
         didSet {
@@ -76,6 +76,7 @@ extension FoodItemTableViewCell: UICollectionViewDelegate,UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let id = self.foodItemTableViewCellVM?.products?[indexPath.row].restaurantId ?? 0
-        self.itemId?(id)
+        let foodId = self.foodItemTableViewCellVM?.products?[indexPath.row].id ?? 0
+        self.itemId?(id, foodId)
     }
 }

@@ -40,6 +40,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
     var itemsID:String!
     
     var restaurantstId:String!
+    var isRestaurentSelected: Bool = true
     
     @IBOutlet weak var itemsBtn: UIButton!{
         didSet{
@@ -57,8 +58,8 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
         searchBarField.placeholder = LocalizationSystem.sharedInstance.localizedStringForKey(key: "searchBarText", comment: "")
         searchTopLbl.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "Search For Restaurents", comment: "")
         // Do any additional setup after loading the view.
-//            let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-//           view.addGestureRecognizer(tap)
+        //            let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        //           view.addGestureRecognizer(tap)
         self.itemsBtn.titleLabel?.textColor = UIColor.red
         self.RestaurantBtn.addTarget(self, action: #selector(RestaurantBtnAction), for: .touchUpInside)
         self.itemsBtn.addTarget(self, action: #selector(ItemsAction), for: .touchUpInside)
@@ -66,7 +67,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
         self.searchHereTF.delegate = self
     }
     
-
+    
     
     func searchNames(){
         let token = UserDefaults.standard.string(forKey: "zoneID")
@@ -77,43 +78,43 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
         print("\(Constants.Common.finalURL)/restaurants/search?name=\(searchHereTF.text!)")
         AF.request("\(Constants.Common.finalURL)/restaurants/search?name=\(searchHereTF.text!)", method: .get, parameters: nil, encoding: JSONEncoding.default,headers: headers)
             .responseJSON { [self] response in
-                    switch response.result {
-                    case .success(let json):
-                        print(json)
-                        let response = json as! [String:AnyObject]
-                        self.restaurantsArray.removeAll()
-                        self.productsArray.removeAll()
-                       /* guard let message = response["errors"] as? [String:AnyObject] else{
-                            return
-                        }*/
-                        DispatchQueue.main.async {
-                            let restaurants = response["restaurants"] as? Array<Any>
-                            for i in 0 ..< (restaurants?.count ?? 0){
-                                let x = restaurants![i] as! [String:AnyObject]
-                                let name = x["name"] as? String ?? ""
-                                self.restaurantsArray.append(name)
-                            }
-                            let products = response["products"] as? Array<Any>
-                            for i in 0 ..< (products?.count ?? 0){
-                                let x = products![i] as! [String:AnyObject]
-                                let name = x["name"] as? String ?? ""
-                                self.productsArray.append(name)
-                            }
-                            self.restaurantsArray.append(contentsOf: self.productsArray)
+                switch response.result {
+                case .success(let json):
+                    print(json)
+                    let response = json as! [String:AnyObject]
+                    self.restaurantsArray.removeAll()
+                    self.productsArray.removeAll()
+                    /* guard let message = response["errors"] as? [String:AnyObject] else{
+                     return
+                     }*/
+                    DispatchQueue.main.async {
+                        let restaurants = response["restaurants"] as? Array<Any>
+                        for i in 0 ..< (restaurants?.count ?? 0){
+                            let x = restaurants![i] as! [String:AnyObject]
+                            let name = x["name"] as? String ?? ""
+                            self.restaurantsArray.append(name)
                         }
-                        
-                    case .failure(let error):
-                        print(error)
-                       /* let alert = UIAlertController(title: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Baseet-Driver", comment: ""), message: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Unable To Connect Server", comment: ""), preferredStyle: UIAlertController.Style.alert)
-                        alert.addAction(UIAlertAction(title: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Okay", comment: ""), style: UIAlertAction.Style.default, handler: { action in
-                        }))
-                        self.present(alert, animated: true, completion: nil)*/
+                        let products = response["products"] as? Array<Any>
+                        for i in 0 ..< (products?.count ?? 0){
+                            let x = products![i] as! [String:AnyObject]
+                            let name = x["name"] as? String ?? ""
+                            self.productsArray.append(name)
+                        }
+                        self.restaurantsArray.append(contentsOf: self.productsArray)
                     }
+                    
+                case .failure(let error):
+                    print(error)
+                    /* let alert = UIAlertController(title: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Baseet-Driver", comment: ""), message: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Unable To Connect Server", comment: ""), preferredStyle: UIAlertController.Style.alert)
+                     alert.addAction(UIAlertAction(title: LocalizationSystem.sharedInstance.localizedStringForKey(key: "Okay", comment: ""), style: UIAlertAction.Style.default, handler: { action in
+                     }))
+                     self.present(alert, animated: true, completion: nil)*/
+                }
             }
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-       
+        
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
@@ -122,20 +123,20 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
         if restaurantstId == "0"{
             self.searchRestaurentVM.getSearchItem(query: searchHereTF.text ?? "")
         }
-         if itemsID == "1"{
+        if itemsID == "1"{
             self.searchRestaurentVM.getSearchProductItem(query: searchHereTF.text ?? "")
         }
         self.searchHereTF.endEditing(true)
     }
-
+    
     fileprivate func configureSimpleSearchTextField() {
         if searchHereTF.text!.count > 2{
             searchHereTF.startVisibleWithoutInteraction = true
             searchHereTF.filterStrings(restaurantsArray)
             print(restaurantsArray)
         }
-            
-       }
+        
+    }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == self.searchHereTF{
@@ -146,6 +147,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
     }
     
     @objc func RestaurantBtnAction(){
+        self.isRestaurentSelected = true
         query = searchingField!
         restaurantstId = "0"
         itemsID = ""
@@ -170,7 +172,9 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
             }
         }
     }
+    
     @objc func ItemsAction(){
+        self.isRestaurentSelected = false
         query = searchingField!
         itemsID = "1"
         restaurantstId = ""
@@ -196,7 +200,6 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
                 self.searchRestaurentVM.getSearchProductItem(query: query)
             }
         }
-       
     }
     
     @objc func dismissKeyboard() {
@@ -240,15 +243,24 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
             }
         }
         
-        self.searchRestaurentVM.navigateToDetailsClosure = { [weak self] in
+        self.searchRestaurentVM.navigateToDetailsClosure = { [weak self] (id) in
             DispatchQueue.main.async {
                 guard let self = self else {return}
-                let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateViewController(identifier: "RestarentDishViewController") as! RestarentDishViewController
-                // vc.modalTransitionStyle = .coverVertical
-                vc.restarentDishViewControllerVM = self.searchRestaurentVM.getRestarentDishViewControllerVM()
-                vc.modalPresentationStyle = .fullScreen
-                self.present(vc, animated: true, completion: nil)
+                if self.isRestaurentSelected {
+                    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+                    let vc = storyboard.instantiateViewController(identifier: "RestarentDishViewController") as! RestarentDishViewController
+                    // vc.modalTransitionStyle = .coverVertical
+                    vc.restarentDishViewControllerVM = self.searchRestaurentVM.getRestarentDishViewControllerVM()
+                    vc.modalPresentationStyle = .fullScreen
+                    self.present(vc, animated: true, completion: nil)
+                } else {
+                    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+                    let vc = storyboard.instantiateViewController(identifier: "RecipeDetailsVC") as! RecipeDetailsVC
+                    vc.recipeDetailsVCVM = self.searchRestaurentVM.getRecipeDetailsVCVM(id: id)
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .fullScreen
+                    self.present(vc, animated: true, completion: nil)
+                }
             }
         }
         
@@ -267,6 +279,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
                 RestaurantBtn.setTitleColor(.white, for: .normal)
                 itemsBtn.backgroundColor = UIColor.white
                 itemsBtn.tintColor = UIColor.red
+                self.isRestaurentSelected = true
                 self.searchRestaurentVM.getSearchItem(query: searchingField ?? "")
             }else{
                 query = self.searchingField ?? ""
@@ -275,6 +288,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
                 itemsBtn.setTitleColor(.white, for: .normal)
                 RestaurantBtn.backgroundColor = UIColor.white
                 RestaurantBtn.tintColor = UIColor.red
+                self.isRestaurentSelected = false
                 itemsBtn.tintColor = UIColor.white
                 print(searchHereTF.text!)
                 self.searchRestaurentVM.getSearchProductItem(query: searchingField ?? "")
@@ -290,6 +304,7 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
                 RestaurantBtn.setTitleColor(.white, for: .normal)
                 itemsBtn.backgroundColor = UIColor.white
                 itemsBtn.tintColor = UIColor.red
+                self.isRestaurentSelected = true
                 self.searchRestaurentVM.getSearchItem(query: searchingField ?? "")
             }else{
                 query = self.searchingField ?? ""
@@ -299,12 +314,13 @@ class SearchRestaurentVC: UIViewController, UITextFieldDelegate {
                 itemsBtn.tintColor = UIColor.white
                 RestaurantBtn.backgroundColor = UIColor.white
                 RestaurantBtn.tintColor = UIColor.red
+                self.isRestaurentSelected = false
                 print(searchHereTF.text!)
                 self.searchRestaurentVM.getSearchProductItem(query: searchingField ?? "")
             }
             self.searchHereTF.endEditing(true)
         }
- 
+        
     }
     
     @IBAction func actionBack(_ sender: Any) {
@@ -352,9 +368,9 @@ extension SearchRestaurentVC: UITableViewDelegate, UITableViewDataSource {
                 return cell
             } else if  (self.searchRestaurentVM.searchModel?.products?.count != 0 &&  self.searchRestaurentVM.searchModel?.products?.count != nil) {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "FoodItemTableViewCell", for: indexPath) as! FoodItemTableViewCell
-                cell.itemId = { (id) in
+                cell.itemId = { (id, foodId) in
                     DispatchQueue.main.async {
-                        self.searchRestaurentVM.makeShopDetailsCall(id: id)
+                        self.searchRestaurentVM.makeShopDetailsCall(id: id, foodId: foodId)
                     }
                 }
                 cell.foodItemTableViewCellVM = self.searchRestaurentVM.getFoodItemTableViewCellVM()
@@ -375,9 +391,9 @@ extension SearchRestaurentVC: UITableViewDelegate, UITableViewDataSource {
             if indexPath.section == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "FoodItemTableViewCell", for: indexPath) as! FoodItemTableViewCell
                 cell.foodItemTableViewCellVM = self.searchRestaurentVM.getFoodItemTableViewCellVM()
-                cell.itemId = { (id) in
+                cell.itemId = { (id, foodId) in
                     DispatchQueue.main.async {
-                        self.searchRestaurentVM.makeShopDetailsCall(id: id)
+                        self.searchRestaurentVM.makeShopDetailsCall(id: id, foodId: foodId)
                     }
                 }
                 return cell
@@ -392,7 +408,11 @@ extension SearchRestaurentVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let id = self.searchRestaurentVM.searchModel?.restaurants?[indexPath.row].id else { return }
-        self.searchRestaurentVM.makeShopDetailsCall(id: id)
+        var foodId = 0
+        if !self.isRestaurentSelected {
+            foodId = self.searchRestaurentVM.searchModel?.products?[indexPath.row].id ?? 0
+        }
+        self.searchRestaurentVM.makeShopDetailsCall(id: id, foodId: foodId)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -426,28 +446,28 @@ extension SearchRestaurentVC: UISearchBarDelegate {
         if restaurantstId == "0"{
             self.searchRestaurentVM.getSearchItem(query: searchingField ?? "")
         }
-         if itemsID == "1"{
+        if itemsID == "1"{
             self.searchRestaurentVM.getSearchProductItem(query: searchingField ?? "")
         }
         self.searchBarField.endEditing(true)
     }
     
-//    func navigateToAdOnView(itemCount: Int, index: Int, addon: [AddOns]? = nil) {
-//        let foodItem = self.restarentDishViewControllerVM?.foodItems?[index]
-//        if foodItem?.addOns != nil && foodItem?.addOns?.count ?? 0 > 0 {
-//        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(identifier: "AddOnViewController") as! AddOnViewController
-//        vc.addOnViewControllerVM = self.restarentDishViewControllerVM?.getAddOnViewControllerVM(index: index)
-//        vc.addOns  = { (addOns) in
-//            DispatchQueue.main.async {
-//                self.restarentDishViewControllerVM?.decideFlow(itemCount: itemCount, index: index, addOns: addOns)
-//            }
-//        }
-//        vc.modalTransitionStyle  = .crossDissolve
-//       // vc.modalPresentationStyle = .fullScreen
-//        self.present(vc, animated: true, completion: nil)
-//        } else {
-//            self.restarentDishViewControllerVM?.decideFlow(itemCount: itemCount, index: index)
-//        }
-//    }
+    //    func navigateToAdOnView(itemCount: Int, index: Int, addon: [AddOns]? = nil) {
+    //        let foodItem = self.restarentDishViewControllerVM?.foodItems?[index]
+    //        if foodItem?.addOns != nil && foodItem?.addOns?.count ?? 0 > 0 {
+    //        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+    //        let vc = storyboard.instantiateViewController(identifier: "AddOnViewController") as! AddOnViewController
+    //        vc.addOnViewControllerVM = self.restarentDishViewControllerVM?.getAddOnViewControllerVM(index: index)
+    //        vc.addOns  = { (addOns) in
+    //            DispatchQueue.main.async {
+    //                self.restarentDishViewControllerVM?.decideFlow(itemCount: itemCount, index: index, addOns: addOns)
+    //            }
+    //        }
+    //        vc.modalTransitionStyle  = .crossDissolve
+    //       // vc.modalPresentationStyle = .fullScreen
+    //        self.present(vc, animated: true, completion: nil)
+    //        } else {
+    //            self.restarentDishViewControllerVM?.decideFlow(itemCount: itemCount, index: index)
+    //        }
+    //    }
 }

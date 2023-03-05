@@ -29,6 +29,7 @@ class RecipeDetailsVCVM {
     var showAdOnClosure:((Int, Int, [AddOns])->())?
     var navigateToCartViewClosure:(()->())?
     var finalItemCount: Int = 0
+    var cartID: Int?
     
     init(proDuctDetailsModel: FoodItems, index: Int, shopDetailsModel: ShopDetailsModel, apiServices: HomeApiServicesProtocol = HomeApiServices()) {
         self.shopDetailsModel = shopDetailsModel
@@ -75,7 +76,9 @@ class RecipeDetailsVCVM {
                             self.checkCurrentShopItems()
                         } else if isFromCartScreen {
                             let resID =  Int((UserDefaults.standard.string(forKey: "RestaurentId") ?? "") as String)
-                          //  self.makeShopDetailsCall(limit: 10, id: resID ?? 0)
+                            self.cartID = nil
+                            self.reloadRecipieCollectionView?(self.finalItemCount)
+                            //  self.makeShopDetailsCall(limit: 10, id: resID ?? 0)
                         } else {
                             self.reloadRecipieCollectionView?(self.finalItemCount)
                         }
@@ -90,11 +93,11 @@ class RecipeDetailsVCVM {
     }
     
     func decideFlow(itemCount: Int, index: Int, addOns: [AddOns]? = nil, isIncrementFlow: Bool) {
-        if self.proDuctDetailsModel?.cartId != nil {
+        if self.proDuctDetailsModel?.cartId != nil || self.cartID != nil {
             if self.isNewAdon(index: index, addOns: addOns) && isIncrementFlow {
                 self.createCartCall(itemCount: 1, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow)
             } else {
-                self.updateCartCall(itemCount: self.proDuctDetailsModel?.itemQuantity ?? 0, index: self.newIndex ?? index, addOns: addOns, isIncrementFlow: isIncrementFlow)
+                self.updateCartCall(itemCount: itemCount, index: self.newIndex ?? index, addOns: addOns, isIncrementFlow: isIncrementFlow)
             }
         } else {
             if itemCount > 0 {
@@ -320,6 +323,7 @@ class RecipeDetailsVCVM {
                     self.hideLoadingIndicatorClosure?()
                     if status == true {
                         self.addToCartModel = result as? AddToCartModel
+                        self.cartID = self.addToCartModel?.data?[0].id
                         self.updateValues(itemCount: itemCount, index: index, addOns: addOns,cartId: self.addToCartModel?.data?[0].id ?? 0)
                     } else {
                         self.alertClosure?(errorMessage ?? "Some Technical problem")
@@ -366,17 +370,21 @@ class RecipeDetailsVCVM {
     }
     
     func checkCurrentShopItems() {
-        let currentShopItem = self.getCartModel?.data?.filter({$0.restaurantId == "\(self.shopDetailsModel?.restaurant?.id ?? 0)"})
+        let currentShopItem = self.getCartModel?.data?.filter({$0.restaurantId == "\(self.proDuctDetailsModel?.restaurantId ?? 0)"})
         if currentShopItem?.count ?? 0 > 0 {
-            //self.isInitialUpdate = false
-          //  self.updatePreviousItems(cartdataModel: currentShopItem ?? [CartDataModel]())
+            let item = currentShopItem?.filter({$0.id == "\(self.proDuctDetailsModel?.id ?? 0)"})
+            self.cartID = Int(currentShopItem?[0].cartid ?? "")
+            if item?.count ?? 0 > 0 {
+                self.reloadRecipieCollectionView?(Int(item?[0].foodQty ?? "") ?? 0)
+            } else {
+                self.reloadRecipieCollectionView?(0)
+            }
         }
-        self.reloadRecipieCollectionView?(self.finalItemCount)
     }
     
     func checkOtherShopItems() ->Bool{
-        let otherShopItem = self.getCartModel?.data?.filter({$0.restaurantId != "\(self.shopDetailsModel?.restaurant?.id ?? 0)"})
-        if otherShopItem?.count ?? 0 > 0 {
+        let currentShopItem = self.getCartModel?.data?.filter({$0.restaurantId == "\(self.proDuctDetailsModel?.restaurantId ?? 0)"})
+        if currentShopItem?.count ?? 0 > 0 {
             return true
         } else {
             return false
@@ -384,22 +392,21 @@ class RecipeDetailsVCVM {
     }
     
     func updateValues(itemCount: Int, index: Int, addOns: [AddOns]? = nil, cartId: Int? = nil) {
-        var item = self.proDuctDetailsModel
-        item?.itemQuantity = itemCount
-        if cartId != nil {
-            item?.cartId = cartId
-        }
-        if itemCount == 0 {
-            item?.cartId = nil
-        }
-        if addOns != nil && addOns?.count != 0{
-            item?.addOns = addOns
-        }
-        self.proDuctDetailsModel = nil
-        self.proDuctDetailsModel = item
+        //        var item = self.proDuctDetailsModel
+        //        item?.itemQuantity = itemCount
+        //        if cartId != nil {
+        //            item?.cartId = cartId
+        //        }
+        //        if itemCount == 0 {
+        //            item?.cartId = nil
+        //        }
+        //        if addOns != nil && addOns?.count != 0{
+        //            item?.addOns = addOns
+        //        }
+        //        self.proDuctDetailsModel = nil
+        self.proDuctDetailsModel = self.copoyOfproDuctDetailsModel
         self.newIndex = nil
         getCartCall()
-        //  self.reloadRecipieCollectionView?()
     }
     
     func isItemAvailable() ->Bool {
@@ -448,38 +455,12 @@ class RecipeDetailsVCVM {
         self.getCartCall()
     }
     
-//    func updatePreviousItems(cartdataModel: [CartDataModel]) {
-//        self.proDuctDetailsModel = self.shopDetailsModel?.products
-//        for item in cartdataModel {
-//            if  let index = self.foodItems?.firstIndex(where: {$0.id == Int(item.cartfoodid ?? "")}) {
-//                var foodItem = self.foodItems?[index]
-//                foodItem?.itemQuantity = Int(item.foodQty ?? "")
-//                self.foodItems?.remove(at: index)
-//
-//                if item.cartid != nil {
-//                    foodItem?.cartId = Int(item.cartid ?? "")
-//                }
-//
-//                if Int(item.foodQty ?? "") == 0 {
-//                    foodItem?.cartId = nil
-//                }
-//
-//                if let adonItem = item.addon, adonItem.count != 0 {
-//                    for values in adonItem {
-//                        guard let adonIndex = foodItem?.addOns?.firstIndex(where: {$0.id == Int(values.id ?? "")}) else { return }
-//                        var adOnFinalItem = foodItem?.addOns?[adonIndex]
-//                        adOnFinalItem?.id = Int(values.id ?? "")
-//                        adOnFinalItem?.price = Int(values.addonprice ?? "")
-//                        adOnFinalItem?.itemQuantity = Int(values.addonquantity ?? "")
-//                        adOnFinalItem?.name = values.addonname
-//                        adOnFinalItem?.restaurantId = foodItem?.restaurantId
-//                        foodItem?.addOns?.remove(at: adonIndex)
-//                        foodItem?.addOns?.insert(adOnFinalItem ?? AddOns(), at: adonIndex)
-//                    }
-//                }
-//                self.foodItems?.insert(foodItem ?? FoodItems(), at: index)
-//            }
-//        }
-//        //   self.reloadRecipieCollectionView?()
-//    }
+    func getItemCount() ->Int {
+        if self.proDuctDetailsModel?.itemQuantity == nil {
+            let item = self.getCartModel?.data?.filter{$0.restaurantId == "\(self.proDuctDetailsModel?.restaurantId ?? 0)"}
+            return Int(item?[0].foodQty ?? "") ?? 0
+        } else {
+            return self.proDuctDetailsModel?.itemQuantity ?? 0
+        }
+    }
 }

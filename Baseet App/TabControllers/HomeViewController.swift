@@ -104,7 +104,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
             LocalizationSystem.sharedInstance.localizedStringForKey(key: "Near By Restaurant", comment: "")
         basketBtn.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: " Basket", comment: ""), for: .normal)
 
-    //    homeViewControllerVM.makeCategoryListCall()
+        homeViewControllerVM.makeCategoryListCall()
         homeViewControllerVM.makeShopNearyByCall()
         homeViewControllerVM.makeBannerCall()
         locationPermissions()
@@ -153,7 +153,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidAppear(animated)
         self.homeViewControllerVM.getCartCall()
         self.sliderApi()
-        self.CategoryListCallApi()
+     //   self.CategoryListCallApi()
     }
     
     
