@@ -50,13 +50,18 @@ class AddOnTableViewCell: UITableViewCell {
         self.QuantityCount.text = "\(self.addOnTableViewCellVM?.addOn?.itemQuantity ?? 0)"
         self.itemCount = self.addOnTableViewCellVM?.addOn?.itemQuantity ?? 0
         self.labelPrice.text = "QR \(self.addOnTableViewCellVM?.addOn?.price ?? 0)"
-//        if self.addOnTableViewCellVM?.addOn?.itemQuantity == 0 || self.addOnTableViewCellVM?.addOn?.itemQuantity == nil {
-//            self.buttonCheck.setImage(UIImage(named: "square"), for: .normal)
-//        } else {
-//            self.buttonCheck.setImage(UIImage(named: "checkmark"), for: .normal)
-//
-//        }
-        self.buttonCheck.setImage(UIImage(named: "square"), for: .normal)
+        if self.addOnTableViewCellVM?.isFromCheckoutScreen ?? false {
+        if self.addOnTableViewCellVM?.addOn?.itemQuantity == 0 || self.addOnTableViewCellVM?.addOn?.itemQuantity == nil {
+            self.buttonCheck.setImage(UIImage(named: "square"), for: .normal)
+        } else {
+            if (self.addOnTableViewCellVM?.addOn?.itemQuantity ?? 0) > 0 {
+                self.buttonCheck.setImage(UIImage(named: "checkmark"), for: .normal)
+            }
+        }
+        }else {
+            self.buttonCheck.setImage(UIImage(named: "square"), for: .normal)
+        }
+
     }
 
     @IBAction func actionReduce(_ sender: Any) {

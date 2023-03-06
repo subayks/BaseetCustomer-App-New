@@ -103,9 +103,7 @@ class SearchRestaurentVM {
     }
     
     func getRecipeDetailsVCVM(id: Int) ->RecipeDetailsVCVM {
-        print(self.searchModel?.products)
         let foodProduct = self.searchModel?.products?.filter{$0.id == id}
-        print(foodProduct)
         return RecipeDetailsVCVM(proDuctDetailsModel: foodProduct?[0] ?? FoodItems(), index: 0, shopDetailsModel: self.shopDetailsModel ?? ShopDetailsModel())
     }
     

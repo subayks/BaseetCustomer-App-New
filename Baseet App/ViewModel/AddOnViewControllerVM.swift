@@ -10,13 +10,15 @@ import Foundation
 class AddOnViewControllerVM {
     var addOns: [AddOns]?
     var addonAdded = [AddOns]()
+    var isFromCheckoutScreen: Bool = false
     
-    init(addOns: [AddOns]) {
+    init(addOns: [AddOns], isFromCheckoutScreen: Bool = false) {
         self.addOns = addOns
+        self.isFromCheckoutScreen = isFromCheckoutScreen
     }
     
     func getAddOnTableViewCellVM(index: Int) ->AddOnTableViewCellVM {
-        return AddOnTableViewCellVM(addOn: self.addOns?[index] ?? AddOns())
+        return AddOnTableViewCellVM(addOn: self.addOns?[index] ?? AddOns(), isFromCheckoutScreen: isFromCheckoutScreen)
     }
     
     func updateValues(itemCount: Int, index: Int) {

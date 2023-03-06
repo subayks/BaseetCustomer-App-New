@@ -730,6 +730,7 @@ extension HomeViewController:UICollectionViewDelegate,UICollectionViewDataSource
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "RecipeDetailsVC") as? RecipeDetailsVC
             vc?.modalPresentationStyle = .fullScreen
             vc?.isFromHomeBanners = "ReceipeBanners"
+            vc?.recipeDetailsVCVM = self.homeViewControllerVM.getRecipeDetailsVCVM(id: 0)
             vc?.priceItem = sliderPriceArray[indexPath.item]
             vc?.ReceipImg = sliderImagesArray[indexPath.row]
             vc?.itemDescription = sliderDescriptionArray[indexPath.row]

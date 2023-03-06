@@ -568,11 +568,15 @@ extension RestaurentFoodPicksVC:UITableViewDelegate,UITableViewDataSource
                 cell.customizeBtn.isHidden = false
             }
             //cell.buttonAdd.addTarget(self, action: #selector(repeatViews), for: .touchUpInside)
+            
+            cell.addonInfo = { (addonInfo) in
+                self.navigateToAdOnView(itemCount: 1, index: indexPath.row, isIncrementFlow: true, isCustomizeFlow: true)
+            }
             return cell
         }
     }
     
-    func navigateToAdOnView(itemCount: Int, index: Int, addon: [AddOns]? = nil, isIncrementFlow: Bool) {
+    func navigateToAdOnView(itemCount: Int, index: Int, addon: [AddOns]? = nil, isIncrementFlow: Bool, isCustomizeFlow: Bool = false) {
         
         let foodItem = self.restaurentFoodPicksVCVM?.shopDetailsModel?.products?[index]
         print(foodItem?.addOns! as Any)
@@ -582,7 +586,7 @@ extension RestaurentFoodPicksVC:UITableViewDelegate,UITableViewDataSource
             vc.addOnViewControllerVM = self.restaurentFoodPicksVCVM?.getAddOnViewControllerVM(index: index)
             vc.addOns  = { (addOns) in
                 DispatchQueue.main.async {
-                    self.restaurentFoodPicksVCVM?.decideFlow(itemCount: itemCount, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow)
+                    self.restaurentFoodPicksVCVM?.updateCartCall(itemCount: 1, index: index, addOns: addOns, isIncrementFlow: true)
                 }
             }
             vc.makeCartCall = {

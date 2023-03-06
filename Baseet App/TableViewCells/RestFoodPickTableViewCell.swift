@@ -16,6 +16,7 @@ protocol YourCellDelegate: AnyObject {
 
 class RestFoodPickTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var addonNames: UILabel!
     weak var delegate: YourCellDelegate?
     @IBOutlet weak var countOverView: UIView!
     @IBOutlet weak var buttonAdd: UIButton!
@@ -28,6 +29,7 @@ class RestFoodPickTableViewCell: UITableViewCell {
     var addonprice:String!
     var yourobj : (() -> Void)? = nil
     @IBOutlet weak var customizeBtn: UIButton!
+    var addonInfo:(([CartAddOn])->())?
     
     var RestFoodPickTableViewCellVM: RestFoodPickTableViewCellVM? {
         didSet {
@@ -52,6 +54,7 @@ class RestFoodPickTableViewCell: UITableViewCell {
         self.countOverView.layer.cornerRadius = 5
         self.countOverView.layer.borderWidth = 1
         self.countOverView.layer.borderColor = UIColor(red: 172/255, green: 37/255, blue: 23/255, alpha: 1).cgColor
+        self.addonNames.text = self.RestFoodPickTableViewCellVM?.addonNames()
         self.itemName.text = self.RestFoodPickTableViewCellVM?.foodItems?.name
         self.itemCount.text = self.RestFoodPickTableViewCellVM?.foodItems?.foodQty
         self.itemCountValue = Int(self.RestFoodPickTableViewCellVM?.foodItems?.foodQty ?? "") ?? 0
@@ -103,6 +106,7 @@ class RestFoodPickTableViewCell: UITableViewCell {
     }
     
     @IBAction func customizationAction(_ sender: Any) {
+        self.addonInfo?(self.RestFoodPickTableViewCellVM?.foodItems?.addon ?? [CartAddOn()])
     }
     
     

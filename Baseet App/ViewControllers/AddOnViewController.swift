@@ -36,7 +36,9 @@ class AddOnViewController: UIViewController {
     }
    
     @IBAction func backBtn(_ sender: Any) {
-        self.makeCartCall?()
+        if !(self.addOnViewControllerVM?.isFromCheckoutScreen ?? false) {
+            self.makeCartCall?()
+        }
         self.dismiss(animated: true,completion: nil)
     }
     

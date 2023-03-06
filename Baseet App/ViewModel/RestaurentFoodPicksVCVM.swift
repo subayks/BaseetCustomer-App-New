@@ -266,48 +266,26 @@ class RestaurentFoodPicksVCVM {
     }
     
     func customizeAddons(productIndex: Int) ->[AddOns] {
-        //   var addOns = [AddOns]()
-        
-        //        let product = self.getCartModel?[productIndex]
-        //        if let cartProduct =  self.shopDetailsModel?.products {
-        //        for item in cartProduct {
-        //            if item.name == product?.name {
-        //                if let addOnsList =  item.addOns {
-        //                    for item in addOnsList {
-        //                        var addOn = AddOns()
-        //                        addOn = item
-        //                        addOn.quantity = product.quantity
-        //                        addOns.append(addOn)
-        //                    }
-        //                }
-        //            }
-        //        }
-        //        }
-        
         let cartProduct =  self.getProduct(selectedIndex: productIndex)
-        //        if let addOnValue = cartProduct.addOns {
-        //            for item in addOnValue {
-        //                var addOn = AddOns()
-        //                addOn = item
-        //                addOn.quantity = item.quantity
-        //                addOns.append(addOn)
-        //            }
-        //        }
         return cartProduct.addOns ?? [AddOns]()
     }
     
     func getProduct(selectedIndex: Int) ->FoodItems{
         var foodItems = FoodItems()
         if let cartProduct =  self.shopDetailsModel?.products, let selectedProdut = self.getCartModel?[selectedIndex], let selectedAdons = selectedProdut.addon {
+            
             for item in cartProduct {
                 if item.name == selectedProdut.name {
                     foodItems = item
                     if let finalList = foodItems.addOns {
                         for (index,values) in finalList.enumerated() {
-                            
-                            //      foodItems.addOns?[index].itemQuantity = Int(selectedAdons[index].addonquantity ?? "")
+                            for i in selectedAdons {
+                                if i.addonname == values.name {
+                                    foodItems.addOns?[index].itemQuantity = Int(i.addonquantity ?? "")
+                                }
+                            }
                         }
-                        return foodItems
+                       // return foodItems
                     }
                 }
             }
@@ -317,13 +295,14 @@ class RestaurentFoodPicksVCVM {
     
     
     func getAddOnViewControllerVM(index: Int) ->AddOnViewControllerVM {
-        return AddOnViewControllerVM(addOns: self.customizeAddons(productIndex: index))
+        return AddOnViewControllerVM(addOns: self.customizeAddons(productIndex: index), isFromCheckoutScreen: true)
     }
     
-    
-    func decideFlow(itemCount: Int, index: Int, addOns: [AddOns]? = nil, isIncrementFlow: Bool, repeatMode: Bool = false) {
+    func decideFlow(itemCount: Int, index: Int, addOns: [AddOns]? = nil, isIncrementFlow: Bool, repeatMode: Bool = false, isCustomizeFlow: Bool = false) {
         if repeatMode {
             self.updateCartCall(itemCount: itemCount, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow, repeatMode: repeatMode)
+        } else if isCustomizeFlow {
+            self.updateCartCall(itemCount: 1, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow, repeatMode: repeatMode)
         } else {
             if self.isNewAdon(index: index, addOns: addOns) && isIncrementFlow {
                 self.createCartCall(itemCount: itemCount, index: index, addOns: addOns, isIncrementFlow: isIncrementFlow)

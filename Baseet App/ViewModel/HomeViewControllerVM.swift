@@ -301,4 +301,8 @@ class HomeViewControllerVM {
         let selectedItems = self.getCartModel?.data ?? [CartDataModel()]
         return selectedItems
     }
+    
+    func getRecipeDetailsVCVM(id: Int) ->RecipeDetailsVCVM {
+        return RecipeDetailsVCVM(proDuctDetailsModel: FoodItems(), index: 0, shopDetailsModel: self.shopDetailsModel ?? ShopDetailsModel())
+    }
 }
