@@ -25,7 +25,11 @@ class RestFoodPickTableViewCellVM {
             if nameArray.count > 1 {
                 return "Addons: " + nameArray[0] + "..."
             } else {
-                return "Addons: " + nameArray[0]
+                if nameArray.count > 0 {
+                    return "Addons: " + nameArray[0]
+                } else {
+                    return ""
+                }
             }
         }
         return ""
